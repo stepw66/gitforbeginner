@@ -1,0 +1,86 @@
+สิ่งที่จะต้องเขียน
+1.	ความเป็นมาของ git
+2.	ประโยชน์ของ git
+3.	ใครควรใช้ git
+4.	เริ่มต้นใช้ git
+5.	สร้าง repository
+6.	ตรวจสอบสถานะของไฟล์
+7.	เพิ่มไฟล์เข้าไปใน repository
+8.	การ commit file
+9.	Adding all changes
+10.	ดูประวัติ
+11.	Remote Repositories
+12.	Pushing Remotely
+13.	Pulling Remotely
+14.	Staged Differences
+15.	Resetting the Stage
+16.	Undo
+17.	Branching
+18.	Switching Branches
+19.	Removing All The Things
+20.	Commiting Branch Changes
+21.	Switching Back to master
+22.	Preparing to Merge
+23.	Delete branch
+
+
+    Level 1: Introduction
+    Level 2: Staging & Remotes
+    Level 3: Cloning & Branching
+    Level 4: Collaboration Basics
+    Level 5: Remote Branches & Tags
+    Level 6: Rebase Belong to Us
+    Level 7: History & Configuration
+
+
+
+
+ 1. 
+
+
+Sections
+    Section 1 Overview
+                - ทำไม developer ถึงจำเป็นต้องใช้ git
+                - SCM ในตลาดที่ใช้กันอยู่
+                
+    Section 2 Setup and Configuration
+                - ติดตั้ง git scm
+                - ติดตั้ง source tree
+                - git มองชื่อไฟล์ตัวอักษรตัวเล็กตัวใหญ่เป็นตัวเดียวกัน
+                
+    Section 3 Working with Git Locally
+                - Init git
+                - Commit
+                - Undo
+                - Show history
+                - Ignore some file
+                
+    Section 4 Going Remote
+                - github กับ bitbucket เลือกอันไหนดี
+                - Clonning ดึงโปรเจ็กมาลงเครื่องพัฒนา
+                - Pushing เอาไฟล์ขึ้นไปเก็บที่ bitbucket
+                - สำรวจ bitbucket ว่ามีอะไรบ้าง
+                    - สร้างทีมสำหรับ dev
+                    - การใช้งาน Issue tracking
+                    - การใช้งาน Wiki
+                - การเซ็ต SSH เพื่อทำ authentication กับ bitbuckert
+                - การ fork และ pull request
+                
+    Section 5 Branching
+                - การแตก branch และประโยชน์ของการแตก branch
+                - การรวมโค้ดจาก branch 
+                - การลบ branch
+                - tag ความหมายและการใช้งาน
+                
+    Section 6 คำสั่งอรรถประโยชน์
+                - Amended commit
+                - cherry pick
+                - Export ไฟล์ที่แก้ไข
+
+    Section 7 git กับ PHPStorm
+                - ดูว่าใครเป็นคนแก้โค้ดบรรทัดไหน
+                - Show history
+                - Compare code
+                - Restore code
+                
+                
