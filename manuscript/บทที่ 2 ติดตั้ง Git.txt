@@ -1,0 +1,111 @@
+# ติดตั้ง Git #
+
+Git จะถูกแยกออกเป็น 2 ส่วน คือ Git SCM กับ Source Tree สำหรับคนที่ต้องการใช้งาน git ผ่านทาง command line สามารถติดตั้งเฉพาะ Git SCM อย่างเดียวก็พอ ส่วนสำหรับใครที่ถนัด GUI ก็ต้องติดตั้ง Source Tree ด้วย เพื่อให้สามารถใช้งาน Git แบบ Graphic Mode ได้ สำหรับหนังสือเล่มนี้ผมนำเสนอวิธีใช้งาน Git แบบ Graphic Mode เพราะฉะนั้นเราจะติดตั้ง Source Tree ด้วย
+
+## ติดตั้ง Git SCM ##
+
+1.	เปิดเบราเซอร์ขึ้นมาเข้าไปยังเว็บไซต์ http://git-scm.com
+	
+	![](images/chapter-2/git-scm-2014-12-15-16-34-00.png)
+    
+2.	คลิกปุ่ม Downloads for Windows
+	
+	![](images/chapter-2/git-scm-2014-12-15-16-34-07.png)
+    
+3.	หน้าต่างดาวน์โหลดจะถูกเปิดขึ้นมา ให้ลิกปุ่ม Save file
+	
+	![](images/chapter-2/git-scm-2014-12-15-16-36-05.png)  
+    
+4.	รอจนดาวน์โหลดเสร็จสิ้น คลิกไฟล์ที่ดาวน์โหลดมา เพื่อทำการติดตั้ง
+	
+	![](images/chapter-2/git-scm-2014-12-15-16-38-16.png)      
+    
+5.	ถ้ามีหน้าต่าง Security Warning ขึ้นมาถามให้คลิกปุ่ม Run เพื่อติดตั้งโปรแกรม
+	
+	![](images/chapter-2/git-scm-2014-12-15-16-38-25.png)      
+    
+6.	ถ้ามีหน้าต่าง User Account Control เปิดขึ้นมาถามเรื่องความปลอดภัย ให้คลิกปุ่ม Yes
+	
+	![](images/chapter-2/git-scm-2014-12-15-16-38-29.png)
+        
+7.	หน้าต่าง Git Setup เปิดขึ้นมาให้คลิกปุ่ม Next
+	
+	![](images/chapter-2/git-scm-2014-12-15-16-38-36.png)
+            
+8.	คลิก Next
+	
+	![](images/chapter-2/git-scm-2014-12-15-16-38-40.png)
+    
+9.	กำหนดโฟลเดอร์สำหรับติดตั้ง Git แนะนำว่าไม่ต้องเปลี่ยนแปลงอะไร จากนั้นคลิก Next
+	
+	![](images/chapter-2/git-scm-2014-12-15-16-38-43.png)
+    
+10.	ไม่ต้องเปลี่ยนแปลงอะไร คลิก Next
+	
+	![](images/chapter-2/git-scm-2014-12-15-16-38-47.png)    
+    
+11.	ไม่ต้องเปลี่ยนแปลงอะไร คลิก Next
+	
+	![](images/chapter-2/git-scm-2014-12-15-16-38-50.png)    
+    
+12.	ไม่ต้องเปลี่ยนแปลงอะไร คลิก Next
+	
+	![](images/chapter-2/git-scm-2014-12-15-16-39-01.png)        
+    
+13.	ไม่ต้องเปลี่ยนแปลงอะไร คลิก Next
+	
+	![](images/chapter-2/git-scm-2014-12-15-16-39-05.png)     
+    
+14.	รอครับ สักครู่
+	
+	![](images/chapter-2/git-scm-2014-12-15-16-39-09.png)         
+
+15.	เมื่อการติดตั้งเสร็จเรียบร้อย ติ๊กเครื่องหมายถูกหน้า View ReleaseNotes.rtf ออกเส็จแล้วคลิกปุ่ม Finish
+	
+	![](images/chapter-2/git-scm-2014-12-15-16-39-41.png)
+    
+    
+## ติดตั้ง Source Tree ##
+
+1.	เปิดเบราเซอร์ขึ้นมาเข้าไปยังเว็บไซต์ http://www.sourcetreeapp.com/
+	
+	![](images/chapter-2/source-tree-install-2014-12-15-16-46-55.png)    
+    
+2.	คลิกปุ่ม Download SourceTree Free
+    
+    ![](images/chapter-2/source-tree-install-2014-12-15-16-46-55.png)    
+    
+3.	หน้าต่างดาวน์โหลดไฟล์ จะถูกเปิดขึ้นมา คลิกปุ่ม Save File
+	
+	![](images/chapter-2/source-tree-install-2014-12-15-16-47-10.png)        
+    
+4.	เปิดไฟล์ที่ดาวน์โหลดมาเพื่อทำการติดตั้ง
+	
+	![](images/chapter-2/source-tree-install-2014-12-15-16-47-23.png)        
+    
+5.	หน้าต่าง Security Warning เปิดขึ้นมาให้คลิกปุ่ม Run
+	
+	![](images/chapter-2/source-tree-install-2014-12-15-16-47-33.png)        
+    
+6.	คลิกปุ่ม Next
+	
+	![](images/chapter-2/source-tree-install-2014-12-15-16-47-40.png)            
+    
+    
+7.	เลือกโฟลเดอร์สำหรับติดตั้ง Source Tree (แนะนำว่าไม่ต้องเปลี่ยนแปลงอะไร) คลิกปุ่ม Next
+	
+	![](images/chapter-2/source-tree-install-2014-12-15-16-47-44.png)            
+
+8.	คลิกปุ่ม Install
+	
+	![](images/chapter-2/source-tree-install-2014-12-15-16-47-46.png)           
+    
+9.	หน้าต่าง User Account Control เปิดขึ้นมา คลิกปุ่ม Yes
+	
+	![](images/chapter-2/source-tree-install-2014-12-15-16-47-54.png)
+    
+10.	หลังจากโปรแกรมติดตั้งเสร็จเรียบร้อยแล้ว คลิกปุ่ม Finish
+	
+	![](images/chapter-2/source-tree-install-2014-12-15-16-48-23.png)    
+    
+    
