@@ -46,6 +46,7 @@ Sections
     Section 2 Setup and Configuration
                 - ติดตั้ง git scm
                 - ติดตั้ง source tree
+                - เปิดใช้งาน source tree ครั้งแรก
                 - git มองชื่อไฟล์ตัวอักษรตัวเล็กตัวใหญ่เป็นตัวเดียวกัน
                 
     Section 3 Working with Git Locally
