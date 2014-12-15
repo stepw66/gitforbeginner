@@ -108,4 +108,37 @@ Git จะถูกแยกออกเป็น 2 ส่วน คือ Git S
 	
 	![](images/chapter-2/source-tree-install-2014-12-15-16-48-23.png)    
     
+## เปิดใช้งาน source tree ครั้งแรก ##
+
+เมื่อเปิดใช้งาน source tree ครั้งแรก มันจะให้เราตั้งค่าการใช้งานเบื้องต้นนิดหน่อย
+
+1.	ติ๊กเครื่องหมายถูกหน้าช่อง I agree the..., Help improve... และ Configurate automatic... จากนั้นคลิกปุ่ม Continue
+	
+	![](images/chapter-2/source-tree-2014-12-15-16-53-55.png)
+
+2.	รอสักครู่หาก Source Tree ทำการดาวน์โหลดข้อมูลบางอย่าง
+	
+	![](images/chapter-2/source-tree-2014-12-15-16-54-07.png)    
     
+3.	คลิกปุ่ม Next
+	
+	![](images/chapter-2/source-tree-2014-12-15-16-55-55.png)    
+    
+4.	Source Tree ถามให้ติดตั้ง ignore ไฟล์ให้คลิกปุ่ม Yes ในบทข้างหน้าท่านจะได้ศึกษาเรื่อง ignore ไฟล์ ไฟล์ที่เป็นตัวกำหนดว่าไฟล์อะไรบ้างที่ Source Tree ไม่ต้องสนใจในโปรเจ็กของเรา
+	
+	![](images/chapter-2/source-tree-2014-12-15-16-56-06.png)    
+    
+5.	หน้าต่างป้อน Remote account ตอนนี้ให้ข้ามไปก่อน เราค่อยไปทำความเข้าใจและใช้งานทีหลัง คลิกปุ่ม Skip Setup
+	
+	![](images/chapter-2/source-tree-2014-12-15-16-56-17.png)
+    
+6.	หน้าต่าง Load SSH Key? เราจะข้ามการกำหนดการทำ Authentication ด้วย SSH Key ไปก่อน เราจะทำความเข้าใจเรื่องนี้อย่างละเอียดอีกครั้งในบทข้างหน้า คลิกปุ่ม No
+	
+	![](images/chapter-2/source-tree-2014-12-15-16-56-24.png)    
+    
+7.	หน้าตา Source Tree จะเป็นดังภาพ
+	
+	![](images/chapter-2/source-tree-2014-12-15-16-56-37.png)    
+    
+
+Source Tree เป็นโปรแกรม Git GUI เพราะฉะนั้นเมื่อเราพูดว่าเราใช้ Source Tree นั่นก็หมายความว่าเรากำลังใช้ Git
