@@ -6,5 +6,30 @@
 
 ## สร้าง repository ##
 
+1.	เปิด Source Tree ขึ้นมา
+	
+	![](images/chapter-3/init_repository_01.png)
 
+2.	คลิกปุ่ม Clone / New
+	
+	![](images/chapter-3/init_repository_02.png)
+
+3.	หน้าต่าง Clone / Add / Create Repository จะเปิดขึ้นมา ให้คลิกไปที่แท็บ Create New Repository ช่อง Repository Type เลือกเป็น Git จากนั้นคลิกปุ่ม ... ที่อยู่ด้านหลัง Destination Path เพื่อระบุโฟลเดอร์สำหรับ Repository
+	
+	![](images/chapter-3/init_repository_03.png)
+    
+4.	สร้างโฟลเดอร์ใหม่ชื่อ my-website ไว้ที่ C:\xampp\htdocs  จากนั้นเลือกโฟลเดอร์นี้เป็นโฟลเดอร์สำหรับ Repository
+	
+	![](images/chapter-3/init_repository_04.png)
+    
+5.	เมื่อเลือกโฟลเดอร์สำหรับ Repository แล้วคลิกปุ่ม Create
+	
+	![](images/chapter-3/init_repository_05.png)
+    
+6.	Repository จะถูกสร้างขึ้นมา
+	
+	![](images/chapter-3/init_repository_06.png)
+    
+    
+## ทดลอง ##    
 
