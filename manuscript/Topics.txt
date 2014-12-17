@@ -51,6 +51,7 @@ Sections
                 
     Section 3 Working with Git Locally
                 - Init git
+                - ทดลองเล่น Git ครั้งแรก
                 - Commit
                 - Undo
                 - Show history
