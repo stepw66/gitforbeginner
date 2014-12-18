@@ -60,11 +60,45 @@ https://bitbucket.org
 หลังจากนี้ไปเราจะไม่เข้ามาเว็บ https://bitbucket.org เลยก็ได้ โดยใช้งานผ่านทาง Source Tree เข้ามา
 
 
+## สร้าง Repository บน bitbucket.org ##
 
+ตอนนี้แทนที่เราจะสร้าง Repository บนเครื่องเราเอง เราจะสร้างมันบน bitbucket.org แทน จากนั้นค่อย clone ลงมายังเครื่องของเรา
 
+1. เปิด Source Tree ขึ้นมา คลิกปุ่ม Clone / New
 
+    ![](images/chapter_4/bitbucket_new_repository_01.png)     
 
+2. ที่หน้าต่าง Clone / Add / Create Repository หลังช่อง Source Path/URL จะมีรูปลูกโลกอยู่ คลิก
 
+    ![](images/chapter_4/bitbucket_new_repository_02.png)     
 
+3. เนื่องจากเรายังไม่เคยป้อน Account เลยจึงมีหน้าต่าง Edit Hosting Account ขึ้นมาถาม
+    Hosting Service: เลือก Bitbucket
+    Username: ป้อนยูสเซอร์เนมที่สมัครไว้ที่ bitbucket.org
+    จากนั้นคลิกปุ่ม tab คนคีย์บอร์ดไปสักที จะมีหน้าต่าง Authentication ให้ป้อนรหัสผ่านขึ้นมา
+
+    ![](images/chapter_4/bitbucket_new_repository_03.png)     
+
+4. ที่หน้าต่าง Authentication ป้อนรหัสผ่าน ติ๊กเครื่องหมายถูกหน้า Remember password จากนั้นคลิกปุ่ม Login
+
+    ![](images/chapter_4/bitbucket_new_repository_04.png)     
+
+5. กลับมาที่หน้าต่าง Edit Hosting Account ถ้าตรง Login status: แสดงเป็น Password OK คลิกปุ่ม OK
+
+    ![](images/chapter_4/bitbucket_new_repository_05.png)     
+    
+6. คลิกปุ่ม Close
+
+    ![](images/chapter_4/bitbucket_new_repository_06.png)         
+
+7. ที่หน้าต่าง Hosted Repositories คลิกปุ่ม Create New Repository...
+
+    ![](images/chapter_4/bitbucket_new_repository_07.png)       
+    
+8. ที่หน้าต่าง Create Repository ป้อนชื่อ Repository เข้าไปในช่อง Name: จากนั้นคลิกปุ่ม Create Repository ช่องอื่นๆไม่จำเป็นต้องป้อนข้อมูลอะไร แต่หากต้องการให้มันสมบูรณ์ก็ป้อนเข้าไปก็ได้
+
+    ![](images/chapter_4/bitbucket_new_repository_08.png)        
+    
+ตอนนี้เราได้สร้าง Repository ใหม่ขึ้นมาบน bitbucket.org เรียบร้อยแล้ว ต่อไปเราจะ clone มันลงมายังเครื่องเพื่อเขียนโค้ดต่อไป
 
 
