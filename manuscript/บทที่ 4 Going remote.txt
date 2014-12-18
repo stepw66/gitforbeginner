@@ -23,5 +23,48 @@ https://bitbucket.org
 
 ## สมัคร bitbucket.org ##
 
+1. เข้าไปยังเว็บไซต์ https://bitbucket.org   
 
- 
+    ![](images/chapter_4/register_bitbucket_00.png)      
+    
+2. ป้อนข้อมูลเพื่อลงทะเบียนสมาชิกใหม่
+    Username : ยูสเซอร์เนม
+    Email : อีเมล์
+    Password : รหัสผ่าน
+    ติ๊กเครื่องหมายถูกหน้า Accept our privacy policy and customer agreement จากนั้นคลิกปุ่ม Sign up for free
+
+    ![](images/chapter_4/register_bitbucket_01.png)       
+    
+3. ป้อนตัวอักษรที่มองเห็น จากนั้นคลิกปุ่ม Submit
+
+    ![](images/chapter_4/register_bitbucket_02.png)       
+    
+4. ป้อนรายละเอียดข้อมูลส่วนตัว
+    Firstname : ชื่อ
+    Lastname : นามสกุล
+    Location : ที่พำนัก เอาสั้นๆใส่แค่ประเทศก็ได้
+    Website : เว็บไซต์ของตัวเอง
+    
+    เสร็จแล้วคลิกปุ่ม Submit
+    
+    ![](images/chapter_4/register_bitbucket_03.png)     
+    
+5. คลิกลิ้งก์ No Thanks
+
+    ![](images/chapter_4/register_bitbucket_04.png)     
+        
+6. มาถึงหน้านี้ถือได้ว่าการสมัครสมาชิกใหม่ เสร็จสมบูรณ์เรียบร้อย
+
+    ![](images/chapter_4/register_bitbucket_05.png)     
+    
+หลังจากนี้ไปเราจะไม่เข้ามาเว็บ https://bitbucket.org เลยก็ได้ โดยใช้งานผ่านทาง Source Tree เข้ามา
+
+
+
+
+
+
+
+
+
+
