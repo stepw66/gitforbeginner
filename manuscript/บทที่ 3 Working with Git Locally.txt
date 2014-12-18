@@ -192,5 +192,31 @@
     
 ลองสังเกตคอมเม้นท์ที่พิมพ์ไว้ กับโค้ด ลองพิจารณาดูว่าเมื่อเราอ่านคอมเม้นท์ เราพอจะเข้าใจโค้ดได้คร่าวๆหรือไม่ว่า เราทำอะไรลงไป ดูบ่อยๆแล้วท่านจะเข้าใจได้ด้วยตัวเองว่าควรจะคอมเม้นท์ยังไง คอมเม้นท์คือสิ่งที่ไว้ใช้เตือนความจำ นั่นคือเป้าหมายของมัน ลองคิดและลองผิดลองถูกหลายๆครั้งครับ     
 
-   
+
+## Ignore some file ##
+
+จะมีบางไฟล์ในโปรเจ็กที่เราไม่ต้องการจะ commit มันเข้า Repository ให้รก อย่างพวกไฟล์ temporary ต่างๆที่เกิดขึ้นจากการทดสอบรันโค้ด หรือไฟล์อื่นๆที่บาง editor มันสร้างขึ้นมา เราสามารถบอก Source Tree ได้ว่าถ้าเจอไฟล์ชื่อนี้ๆ หรือนามสกุลนี้ๆ ไม่ต้องสนใจ
+
+1. เข้าไปยังโฟลเดอร์ C:\xampp\htdocs\my-website สร้างไฟล์ชื่อว่า testfile.tmp  สมมติเอาว่าไฟล์นี้แหละที่เราจะไม่ให้ Git มันสนใจ
+
+    ![](images/chapter-3/ignore_some_file_01.png)   
     
+2. ไปที่ Source Tree จะเห็นไฟล์ testfile.tmp คลิกปุ่ม ... ด้านหลังชื่อไฟล์ คลิกเลือก Ignore file
+
+    ![](images/chapter-3/ignore_some_file_02.png)   
+    
+3. หน้าต่าง Ignore จะเปิดขึ้นมา มีหลายตัวเลือกให้เลือก เลือกตัวเลือกแรกจากนั้นคลิกปุ่ม OK
+    Ignore exect filename(s) : Ignore ไฟล์ที่เลือก
+    Ignore all files with this extension : Ignore ทุกไฟล์ที่มีนามสกุลเหมือนกับไฟล์ที่เลือก
+    Ignore everything beneath : Ignore ทุกไฟล์ที่อยู่ภายใต้โฟลเดอร์ที่เลือก (ใน dropdown list)
+    Ignore custom pattern : Ignore โดยระบุรูปแบบชื่อไฟล์เอง (เหมาะกับคนถนัด regular expression)
+
+    ![](images/chapter-3/ignore_some_file_03.png)   
+    
+4. ไฟล์ testfile.tmp จะหายไปแล้วมีไฟล์ .gitignore มาแทน โดยเนื้อในเก็บชื่อไฟล์ testfile.tmp ไว้ ให้ติ๊กเลือกไฟล์ .gitignore ให้ไปอยู่ที่ Staged files
+
+    ![](images/chapter-3/ignore_some_file_04.png)   
+
+5. จากนั้น Commit ไฟล์ .gitignore ไปเก็บซะ
+
+    ![](images/chapter-3/ignore_some_file_05.png)   
