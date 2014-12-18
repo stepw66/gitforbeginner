@@ -102,3 +102,31 @@ https://bitbucket.org
 ตอนนี้เราได้สร้าง Repository ใหม่ขึ้นมาบน bitbucket.org เรียบร้อยแล้ว ต่อไปเราจะ clone มันลงมายังเครื่องเพื่อเขียนโค้ดต่อไป
 
 
+## Clone Repository ##
+1. เปิด Source Tree ขึ้นมา คลิกปุ่ม Clone / New
+
+    ![](images/chapter_4/bitbucket_clone_repository_01.png)     
+
+2. ที่หน้าต่าง Clone / Add / Create Repository หลังช่อง Source Path/URL จะมีรูปลูกโลกอยู่ คลิก
+
+    ![](images/chapter_4/bitbucket_clone_repository_02.png)            
+    
+3. ที่หน้าต่าง Hosted Repositories คลิกเลือก Repository จากนั้นคลิกปุ่ม OK
+
+    ![](images/chapter_4/bitbucket_clone_repository_03.png)            
+
+4. คลิกปุ่ม ... หลังช่อง Destination Path เพื่อเลือกตำแหน่งสำหรับเก็บ Repository
+
+    ![](images/chapter_4/bitbucket_clone_repository_04.png)  
+    
+5. สร้างโฟลเดอร์ใหม่ online-project ไว้ใน c:\xampp\htdocs เสร็จแล้วคลิกปุ่ม Select Folder
+
+    ![](images/chapter_4/bitbucket_clone_repository_05.png)      
+    
+6. คลิกปุ่ม Clone
+
+    ![](images/chapter_4/bitbucket_clone_repository_06.png)  
+    
+7. เมื่อกลับมาที่หน้า Source Tree ลองคลิกไปที่แท็บ Log / History จะเห็นว่ามันยังว่างเปล่า นั่นเพราะเราไม่เคย commit โค้ดอะไรเข้าไปใน Repository เลย
+
+    ![](images/chapter_4/bitbucket_clone_repository_07.png)      
