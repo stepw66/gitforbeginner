@@ -45,6 +45,7 @@ Sections
                 - Undo
                 - Show history
                 - Ignore some file
+                - Stash วิธีการพักไฟล์
                 
     Section 4 Going Remote
                 - github กับ bitbucket เลือกอันไหนดี
