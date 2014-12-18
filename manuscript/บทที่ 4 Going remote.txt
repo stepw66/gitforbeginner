@@ -130,3 +130,33 @@ https://bitbucket.org
 7. เมื่อกลับมาที่หน้า Source Tree ลองคลิกไปที่แท็บ Log / History จะเห็นว่ามันยังว่างเปล่า นั่นเพราะเราไม่เคย commit โค้ดอะไรเข้าไปใน Repository เลย
 
     ![](images/chapter_4/bitbucket_clone_repository_07.png)      
+    
+## Pushing เอาไฟล์ขึ้นไปเก็บที่ bitbucket ##
+
+การ Push เป็นกระบวนการที่ต่อจากการ Commit  การ Commit เป็นการบันทึกการเปลี่ยนแปลงของโค้ด การ Push เป็นการส่งบันทึกการเปลี่ยนแปลงนั้นไปเก็บไว้ที่เครื่อง Remote เพื่อให้มันปลอดภัยจากการฟอร์แมตเครื่องพัฒนา หรือเครื่องพัฒนาพัง
+
+1. เข้าไปยังโฟลเดอร์ c:\xampp\htdocs\online-project สร้างไฟล์ index.php ขึ้นมาแล้วเพิ่มโค้ดอะไรก็ได้เข้าไป จากนั้นบันทึก
+
+    ![](images/chapter_4/bitbucket_push_repository_01.png)      
+    
+2. ไปที่ Source Tree ติ๊กเลือกไฟล์เพื่อจะทำการ Commit
+
+    ![](images/chapter_4/bitbucket_push_repository_02.png)  
+    
+3. พิมพ์คอมเม้นท์ แต่ก่อนจะคลิกปุ่ม Commit ให้ติ๊กเครื่องหมายถูกหน้า Push changes immediately to ด้วยจากนั้นคลิกปุ่ม Commit นอกจากโค้ดจะถูกบันทึกการเปลี่ยนแปลงแล้ว มันยังถูกอัปโหลดขึ้นไปเก็บไว้ที่ bitbucket.org ด้วย ต่อไปไม่ว่าอะไรจะเกิดขึ้นกับเครื่องคอมพิวเตอร์ของเรา เราสามารถ Clone Repository ลงมาได้ทุกเมื่อ
+
+    ![](images/chapter_4/bitbucket_push_repository_03.png)  
+    
+4. ทีนี้ลองไปแก้ไขไฟล์ จากนั้นมา Commit ไฟล์ แต่คราวนี้ให้ติ๊กเครื่องหมายถูกหน้า Push changes immediately to ออก
+
+    ![](images/chapter_4/bitbucket_push_repository_04.png)  
+    
+5. จะเห็นว่า ปุ่ม Push ที่ทูลบาร์มีตัวเลขแดงๆ ขึ้นมา เป็นเครื่องหมายว่าเรายังไม่ได้ Push โค้ดขึ้นไปเก็บที่ bitbucket.ort 1 commit
+
+    ![](images/chapter_4/bitbucket_push_repository_05.png)  
+    
+6. คลิกปุ่ม Push แล้วคลิกปุ่ม OK
+
+    ![](images/chapter_4/bitbucket_push_repository_06.png)  
+    
+การรอให้มีหลาย Commit ก่อนค่อย Push ขึ้น Remote ในทีเดียว บางครั้งก็เกิดความสะดวกดี หรือหากอินเตอร์เน็ตเราล่ม เราก็ยังสามารถเก็บความเปลี่ยนแปลงของโค้ดได้ตามปกติ อินเตอร์เน็ตใช้ได้เมื่อไร เราค่อย Push
