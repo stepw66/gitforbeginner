@@ -102,7 +102,7 @@ https://bitbucket.org
 ตอนนี้เราได้สร้าง Repository ใหม่ขึ้นมาบน bitbucket.org เรียบร้อยแล้ว ต่อไปเราจะ clone มันลงมายังเครื่องเพื่อเขียนโค้ดต่อไป
 
 
-## Clone Repository ##
+## Clonning ดึงโปรเจ็กมาลงเครื่องพัฒนา ##
 1. เปิด Source Tree ขึ้นมา คลิกปุ่ม Clone / New
 
     ![](images/chapter_4/bitbucket_clone_repository_01.png)     
