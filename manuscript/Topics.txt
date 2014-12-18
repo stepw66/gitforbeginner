@@ -50,6 +50,7 @@ Sections
                 - github กับ bitbucket เลือกอันไหนดี
                 - Clonning ดึงโปรเจ็กมาลงเครื่องพัฒนา
                 - Pushing เอาไฟล์ขึ้นไปเก็บที่ bitbucket
+                - Pulling ดึงไฟล์จาก bitbucket
                 
     Section 5 Branching
                 - การแตก branch และประโยชน์ของการแตก branch
@@ -62,13 +63,7 @@ Sections
                 - cherry pick
                 - Export ไฟล์ที่แก้ไข
 
-    Section 7 git กับ PHPStorm
-                - ดูว่าใครเป็นคนแก้โค้ดบรรทัดไหน
-                - Show history
-                - Compare code
-                - Restore code
-
-    Section 8 Bitbucket
+    Section7 Bitbucket
                 - สำรวจ bitbucket ว่ามีอะไรบ้าง
                 - สร้างทีมสำหรับ dev
                 - เปิดใช้งาน Issue tracking
