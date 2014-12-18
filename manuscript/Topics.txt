@@ -24,18 +24,7 @@
 23.	Delete branch
 
 
-    Level 1: Introduction
-    Level 2: Staging & Remotes
-    Level 3: Cloning & Branching
-    Level 4: Collaboration Basics
-    Level 5: Remote Branches & Tags
-    Level 6: Rebase Belong to Us
-    Level 7: History & Configuration
-
-
-
-
- 1. 
+stage , tags , cherry pick, command , rebase, clonning
 
 
 Sections
@@ -61,12 +50,6 @@ Sections
                 - github กับ bitbucket เลือกอันไหนดี
                 - Clonning ดึงโปรเจ็กมาลงเครื่องพัฒนา
                 - Pushing เอาไฟล์ขึ้นไปเก็บที่ bitbucket
-                - สำรวจ bitbucket ว่ามีอะไรบ้าง
-                    - สร้างทีมสำหรับ dev
-                    - การใช้งาน Issue tracking
-                    - การใช้งาน Wiki
-                - การเซ็ต SSH เพื่อทำ authentication กับ bitbuckert
-                - การ fork และ pull request
                 
     Section 5 Branching
                 - การแตก branch และประโยชน์ของการแตก branch
@@ -84,5 +67,17 @@ Sections
                 - Show history
                 - Compare code
                 - Restore code
-                
+
+    Section 8 Bitbucket
+                - สำรวจ bitbucket ว่ามีอะไรบ้าง
+                - สร้างทีมสำหรับ dev
+                - เปิดใช้งาน Issue tracking
+                    - สร้าง Issue
+                    - เปลี่ยนสถานะ Issue
+                    - การแก้ไข Issue
+                    - การแนบภาพประกอบ
+                    - การใช้งาน Wiki
+                - เปิดใช้งาน Wiki
+                - การเซ็ต SSH เพื่อทำ authentication กับ bitbuckert
+                - ความหมาย fork และ pull request
                 
