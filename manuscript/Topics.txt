@@ -62,7 +62,7 @@ Sections
     Section 6 คำสั่งอรรถประโยชน์
                 - Amended commit
                 - cherry pick
-                - Export ไฟล์ที่แก้ไข
+                - Export ไฟล์
 
     Section7 Bitbucket
                 - สำรวจ bitbucket ว่ามีอะไรบ้าง
