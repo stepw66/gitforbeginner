@@ -45,7 +45,6 @@ Sections
                 - Undo
                 - Show history
                 - Ignore some file
-                - Stash วิธีการพักไฟล์
                 
     Section 4 Going Remote
                 - github กับ bitbucket เลือกอันไหนดี
@@ -58,6 +57,7 @@ Sections
                 - การรวมโค้ดจาก branch 
                 - การลบ branch
                 - tag ความหมายและการใช้งาน
+                - Stash วิธีการพักไฟล์                
                 
     Section 6 คำสั่งอรรถประโยชน์
                 - Amended commit
