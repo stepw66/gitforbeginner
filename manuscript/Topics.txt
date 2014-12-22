@@ -55,10 +55,12 @@ Sections
     Section 5 Branching
                 - การแตก branch 
                 - ประโยชน์ของการแตก branch
+                - การสลับ branch
                 - การ merge branch 
                 - การลบ branch
                 - tag ความหมายและการใช้งาน
-                - Stash วิธีการพักไฟล์                
+                - Stash วิธีการพักไฟล์     
+                - การ Checkout โค้ด
                 
     Section 6 คำสั่งอรรถประโยชน์
                 - Amended commit
