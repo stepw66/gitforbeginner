@@ -53,7 +53,8 @@ Sections
                 - Pulling ดึงไฟล์จาก bitbucket
                 
     Section 5 Branching
-                - การแตก branch และประโยชน์ของการแตก branch
+                - การแตก branch 
+                - ประโยชน์ของการแตก branch
                 - การรวมโค้ดจาก branch 
                 - การลบ branch
                 - tag ความหมายและการใช้งาน
