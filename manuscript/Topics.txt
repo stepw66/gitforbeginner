@@ -55,7 +55,7 @@ Sections
     Section 5 Branching
                 - การแตก branch 
                 - ประโยชน์ของการแตก branch
-                - การรวมโค้ดจาก branch 
+                - การ merge branch 
                 - การลบ branch
                 - tag ความหมายและการใช้งาน
                 - Stash วิธีการพักไฟล์                
