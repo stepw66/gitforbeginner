@@ -56,8 +56,8 @@ Sections
                 - การแตก branch 
                 - ประโยชน์ของการแตก branch
                 - การสลับ branch
-                - การ merge branch 
                 - การลบ branch
+                - การ merge branch 
                 - tag ความหมายและการใช้งาน
                 - Stash วิธีการพักไฟล์     
                 - การ Checkout โค้ด
