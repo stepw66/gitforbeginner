@@ -23,4 +23,17 @@ Amend Commit เป็นการ Commit ซ้ำเข้าไปใน Comm
 4. สังเกตนะครับว่ามีรายการรอ Push อยู่แค่รายการเดียวเท่านั้น ทั้งที่เรา Commit ไปสองครั้ง
 
     ![](images/chapter_6/amend_commit_05.png)     
-    
+  
+  
+## คำสั่ง git สำหรับ export ##  
+
+
+
+export แบบ เจาะจง commit git diff-tree -r --no-commit-id --name-only --diff-filter=ACMRT $commit_id | xargs tar -rf mytarfile.tar
+
+export แบบช่วงจาก commit นี้ไปถึง commit นี้ git diff-tree -r --name-only --diff-filter=ACMRTUXB $commit_id_1 $commit_id_2 | xargs tar -rf mytarfile.tar 
+
+
+
+
+
