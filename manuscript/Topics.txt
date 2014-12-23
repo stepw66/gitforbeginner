@@ -64,7 +64,6 @@ Sections
                 
     Section 6 คำสั่งอรรถประโยชน์
                 - Amended commit
-                - cherry pick
                 - Export ไฟล์
 
     Section7 Bitbucket
@@ -80,3 +79,5 @@ Sections
                 - การเซ็ต SSH เพื่อทำ authentication กับ bitbuckert
                 - ความหมาย fork และ pull request
                 
+
+- cherry pick
