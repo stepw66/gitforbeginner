@@ -51,7 +51,6 @@ id ของ commit ดูได้จากด้านหลัง commit
 
 ![](images/chapter_6/commit_id.png)   
 
-
 ### export แบบช่วงจาก commit นี้ไปถึง commit นี้ ###
 
 ### คำสั่ง ###
