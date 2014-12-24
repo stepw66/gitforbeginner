@@ -1,3 +1,55 @@
 # บทที่ 7 bitbucket #
 
-เราใช้ bitbucket กันมาตั้งแต่บทที่ 4 แต่ผมยังไม่เคยพาท่านๆไปสำรวจมันเลยว่ามันมีอะไรบ้าง คุณสมบัติเจ๋งๆหลายอย่างมีให้เราใช้ครับ ทั้งที่มันฟรี ลองล้อกอินเข้าไปดู https://bitbucket.org/ ในหน้าแรกที่เราเข้าไป จะมี
+เราใช้ bitbucket กันมาตั้งแต่บทที่ 4 แต่ผมยังไม่เคยพาท่านๆไปสำรวจมันเลยว่ามันมีอะไรบ้าง คุณสมบัติเจ๋งๆหลายอย่างมีให้เราใช้ครับ ทั้งที่มันฟรี ลองล้อกอินเข้าไปดู 
+
+## สำรวจ bitbucket ว่ามีอะไรบ้าง ##
+
+ล้อกอินเข้าสู่ https://bitbucket.org/ สิ่งแรกที่เห็นคือหน้า Dashboard
+
+![](images/chapter_7/bitbucket_dashboard.png)
+
+1. พื้นที่ตรงนี้จะแสดง Repository ทั้งหมดที่เรามี
+
+2. Activity จะแสดงรายการความเคลื่อนไหวของแอคเค้าเราทั้งหมด
+
+3. Account Settings เมนูสำหรับปรับแต่งข้อมูลส่วนตัว
+
+
+เมื่อคลิกเข้าไปในหน้า Account Settings ก็จะเจอกับเมนูต่างๆ
+
+![](images/chapter_7/bitbucket_account_settings.png)
+
+    - Account settings : ตั้งค่าข้อมูลส่วนตัว เช่น ชื่อ, นามสกุล, ภาพประจำตัว เป็นต้น
+    - Email addresses : สำหรับจัดการกับชื่ออีเมล์ของตัวเอง มันจะมีประโยชน์ตอน notifications
+    - Notifications : ตั้งค่าการแจ้งเตือน
+    - Custom domain : เปลี่ยน url จาก bitbucket.org เป็นชื่อโดเมนของเรา (ต้องมีความรู้เรื่อง CNAME)
+    - Change username : เปลี่ยน Username สำหรับล้อกอินเข้าสู่ระบบ
+    - Delete account : ลบแอคเค้าทิ้ง (จะไม่สามารถเข้าใช้งาน bitbucket.org ได้อีก)
+    - Plan details : แสดงเพ็กเกจบริการที่ใช้อยู่ในปัจจุบัน
+    - Billing details : แสดงรายการบัตรเครดิต
+    - User groups : สำหรับสร้างทีมพัฒนา
+    - OAuth : แสดงโปรแกรมที่อนุญาติให้เข้าใช้ Repository
+    - HipChat integration : เชื่อมต่อเข้ากับระบบ HipChat บริการแชทแบบกลุ่ม
+    - Change password : เปลี่ยนรหัสผ่าน
+    - SSH keys : จัดการ public key ของ SSH
+    - Connected accounts : แสดง account ที่ใช้สำหรับล้อกอินเข้าสู่ระบบ (third party)
+    - Sessions : แสดงประวัติการล้อกอินเข้าสู่ระบบ
+    - Audit log : แสดงประวัติการ สร้าง, ลบ repository และ SSH key
+    
+เมื่อคลิกเข้าไปดูรายละเอียดแต่ละ Repository ก็จะเจอกับเมนูต่างๆ
+
+![](images/chapter_7/bitbucket_project_detail.png)    
+
+    - Clone : แสดงลิ้งก์สำหรับ clone Repository ลงมายังเครื่องพัฒนา
+    - Create branch : แตก branch ใหม่
+    - Create pull request : อ่านรายละเอียดเพิ่มเติมที่ https://www.atlassian.com/git/tutorials/making-a-pull-request
+    - Compare : เปรียบเทียบความต่างของ branch
+    - Fork : ขอ Clone repository โดยไม่ขอเกี่ยวข้องกับ Repository เดิม
+    - Overviews : แสดงภาพรามของ Repository
+    - Source : ดูโค้ด
+    - Commits : ดู commit ต่างๆ
+    - Branches : ดู branch ต่างๆ
+    - Pull requests : อ่านรายละเอียดเพิ่มเติมที่ https://www.atlassian.com/git/tutorials/making-a-pull-request
+    - Downloads : ดาวน์โหลดโค้ดเป็น zip ไฟล์
+    - Settings : หน้ากำหนดค่าต่างๆ
+    
