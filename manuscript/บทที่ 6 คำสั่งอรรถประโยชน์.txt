@@ -27,13 +27,44 @@ Amend Commit เป็นการ Commit ซ้ำเข้าไปใน Comm
   
 ## คำสั่ง git สำหรับ export ##  
 
+การจะใช้ command line เพื่อเขียนคำสั่ง export ให้คลิกที่ปุ่ม Teminal หน้าต่าง command ก้จะแสดงขึ้นมาให้เราใช้งาน
+
+![](images/chapter_6/commandline_tool.png)    
 
 
-export แบบ เจาะจง commit git diff-tree -r --no-commit-id --name-only --diff-filter=ACMRT $commit_id | xargs tar -rf mytarfile.tar
+มีอยู่ 2 คำสั่งที่ผมใช้บ่อย ผมใช้เพื่อ export ไฟล์ที่แก้ไขทั้งหมดจากช่วงนี้ถึงช่วงนี้เอาไป ftp ขึ้นโปรดักชั่น
 
-export แบบช่วงจาก commit นี้ไปถึง commit นี้ git diff-tree -r --name-only --diff-filter=ACMRTUXB $commit_id_1 $commit_id_2 | xargs tar -rf mytarfile.tar 
+### export แบบ เจาะจง commit ###
+
+### คำสั่ง ###
+
+git diff-tree -r --no-commit-id --name-only --diff-filter=ACMRT $commit_id | xargs tar -rf mytarfile.tar
+
+### คำอธิบาย ###
+
+$commit_id แทนค่าด้วย id ของ commit ที่ต้องการ export
+
+![](images/chapter_6/export_specific_commit_id.png)   
 
 
+id ของ commit ดูได้จากด้านหลัง commit
 
+![](images/chapter_6/commit_id.png)   
+
+
+### export แบบช่วงจาก commit นี้ไปถึง commit นี้ ###
+
+### คำสั่ง ###
+
+git diff-tree -r --name-only --diff-filter=ACMRTUXB $commit_id_1 $commit_id_2 | xargs tar -rf mytarfile.tar 
+
+### คำอธิบาย ###
+
+$commit_id_1 แทนค่าด้วย id ของ commit ตั้งต้น
+$commit_id_2 แทนค่าด้วย id ของ commit จนถึง
+
+ในกรณีต้องการให้ export ออกเป็นชื่อซิปไฟล์อื่นที่มีความหมาย ก้ให้เปลี่ยนคำว่า mytarfile.tar เป็นชื่อไฟล์ที่ต้องการ
+
+![](images/chapter_6/export_specific_range.png)    
 
 
