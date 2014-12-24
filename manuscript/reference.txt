@@ -1,0 +1,6 @@
+1. บทเรียนจาก atlassian เจ้าของ source tree โดยตรง ดีและละเอียดมาก
+    https://www.atlassian.com/git/tutorials
+
+2. เรียนรู้คำสั่ง git แบบ command line tool เจ๋งดีเป็นลำดับขั้นตอน
+    https://try.github.io/levels/1/challenges/1
+    
