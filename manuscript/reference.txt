@@ -3,4 +3,4 @@
 
 2. เรียนรู้คำสั่ง git แบบ command line tool เจ๋งดีเป็นลำดับขั้นตอน
     https://try.github.io/levels/1/challenges/1
-    
+3. http://www.git-tower.com/learn/ebook/command-line/introduction    
