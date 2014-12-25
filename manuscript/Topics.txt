@@ -1,31 +1,3 @@
-สิ่งที่จะต้องเขียน
-1.	ความเป็นมาของ git
-2.	ประโยชน์ของ git
-3.	ใครควรใช้ git
-4.	เริ่มต้นใช้ git
-5.	สร้าง repository
-6.	ตรวจสอบสถานะของไฟล์
-7.	เพิ่มไฟล์เข้าไปใน repository
-8.	การ commit file
-9.	Adding all changes
-10.	ดูประวัติ
-11.	Remote Repositories
-12.	Pushing Remotely
-13.	Pulling Remotely
-14.	Staged Differences
-15.	Resetting the Stage
-16.	Undo
-17.	Branching
-18.	Switching Branches
-19.	Removing All The Things
-20.	Commiting Branch Changes
-21.	Switching Back to master
-22.	Preparing to Merge
-23.	Delete branch
-
-
-stage , tags , cherry pick, command , rebase, clonning
-
 
 Sections
     Section 1 Overview

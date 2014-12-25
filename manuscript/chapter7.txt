@@ -152,7 +152,28 @@ Issue tracking เป็นกระดานสำหรับแจ้ง Issu
 
 ![](images/chapter_7/issue_create_05.png) 
 
-เมนู Edit ใช้สำหรับแก้ไข Issue 
+เมนู Edit ใช้สำหรับแก้ไข Issue
+
+
+### เปลี่ยนสถานะ Issue ### 
+
+1. คลิกเมนู Issues แล้วคลิกเข้าไปดูรายละเอียด Issue
+    ![](images/chapter_7/issue_change_status_01.png)        
+
+2. คลิกเมนู Workflow แล้วเลือกสถานะที่ต้องการ
+    ![](images/chapter_7/issue_change_status_02.png)        
+
+3. พิมพ์คอมเม้นท์เสร็จแล้วคลิกปุ่ม Change
+    ![](images/chapter_7/issue_change_status_03.png)        
+
+4. สถานะของ Issue จะเปลี่ยนไปตามที่เรากำหนด
+    ![](images/chapter_7/issue_change_status_03.png)        
+
+### การแก้ไข Issue ###
+
+
+
+ 
 
 
 
