@@ -46,6 +46,7 @@ Sections
                     - เปลี่ยนสถานะ Issue
                     - การแก้ไข Issue
                     - การแนบภาพประกอบ
+                    - การลบ Issue
                 - เปิดใช้งาน Wiki
                     - การใช้งาน Wiki                
                 - การเซ็ต SSH เพื่อทำ authentication กับ bitbuckert
