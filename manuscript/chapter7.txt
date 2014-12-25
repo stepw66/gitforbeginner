@@ -102,11 +102,57 @@ Issue tracking เป็นกระดานสำหรับแจ้ง Issu
 5. สังเกตุที่เพนด้านซ้ายมือจะมีเมนู Issues เพิ่มขึ้นมา
     ![](images/chapter_7/issue_enable_05.png)   
     
-    
-    
-    
-    
+### สร้าง Issue ###
 
+1. คลิกเมนู Issues ทางด้านซ้ายมือ จากนั้นคลิกปุ่ม Create your first issue
+    ![](images/chapter_7/issue_create_01.png)   
+    
+2. ในกรณียังไม่ได้ทำการ confirm อีเมล์ ทาง bitbucket จะขึ้นมาเตือนให้ confirm อีเมล์ก่อน ให้เราเข้าไปในอีเมล์หาอีเมล์จากทาง bitbucket เปิดเข้าไปในนั้นจะมีลิ้งก์สำหรับ confirm อีเมล์
+    ![](images/chapter_7/issue_create_02.png)    
+    
+3. หลังทำการ confirm อีเมล์แล้วให้ทำตามเสต็ปข้อที่ 1 อีกครั้ง มันก็จะเข้าหน้าสร้าง Issue ปกติ ให้ป้อนรายละเอียดต่างๆ เสร็จแล้วคลิกปุ่ม Create issue
+	Title : ป้อนหัวข้อ Issue
+	Description : ป้อนรายละเอียด
+	Assignee : กำหนดคนที่จะรับผิดชอบแก้ไข Issue นี้
+	Kind : ประเภทของ Issue ซึ่งแบ่งออกเป็น 4 ประเภท bug, enhancement, proposal, task
+		bug บัก
+		enhancement ปรับปรุงให้โปรแกรมดีขึ้น
+		proposal ข้อเสนอแนะ
+		task สิ่งที่ต้องทำ
+	Priority : ระดับความสำคัญ แบ่งออกเป็น 5 ระดับ
+		trivial : ไม่รีบค่อยแก้ตอนว่างๆ
+		minor : เล็กน้อย
+		major : ปานกลาง
+		critical : รุนแรง
+		blocker : หายนะ ต้องรีบแก้ด่วนที่สุด
+	Attachments : แนบไฟล์ประกอบ
+
+    ![](images/chapter_7/issue_create_03.png)        
+
+4. หลังการสร้าง Issue หน้าตาจะออกมาประมาณนี้  เมื่อต้องการจะพูดคุยหรือสื่อสารกันในทีมเกี่ยวกับ Issue นี้ก็คอมเม้นท์คุยกัน ทำให้สามารถกลับมาย้อนดูได้ด้วยว่า ข้อตกลงของทีมเป็นอย่างไร
+    ![](images/chapter_7/issue_create_04.png)        
+
+
+ทางด้านขวามือจะมีเมนู Workflow ที่ไว้สำหรับจัดการกับ Issue เป็นการเลื่อนสถานะของ Issue นั้นๆว่าตอนนี้อยู่ตรงไหนแล้ว 
+	open เปิดไว้รอการแก้ไข
+	on hold รอไว้ก่อนยังไม่ต้องแก้ไข
+	resolved ได้รับการแก้ไขแล้ว
+	duplicate ซ้ำกันกับ Issue อื่นที่สร้างไว้แล้ว
+	invalid ไม่ถูกต้อง
+	wantfix ต้องการการแก้ไขด่วน
+	closed ปิด (อันเนื่องมาจากแก้เสร็จแล้วหรืออย่างอื่นก็แล้วแต่)
+	
+![](images/chapter_7/issue_create_04.png)  
+
+
+เมนู More ประกอบไปด้วย 3 เมนูย่อย
+	Mark as spam : mark ว่า Issue นี้เป็นแสปม
+	Delete : ลบ Issue ทิ้ง
+	Attach files : แนบไฟล์ประกอบ
+
+![](images/chapter_7/issue_create_05.png) 
+
+เมนู Edit ใช้สำหรับแก้ไข Issue 
 
 
 
