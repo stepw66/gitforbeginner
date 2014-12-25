@@ -177,6 +177,14 @@ Issue tracking เป็นกระดานสำหรับแจ้ง Issu
 2. ป้อนรายละเอียดต่างๆ ตามต้องการ จากนั้นคลิกปุ่ม Update issue เพื่อทำการบันทึก
     ![](images/chapter_7/issue_edit_02.png)        
 
+### การแนบภาพประกอบ Issue ###
+
+1. คลิกเข้าไปในรายละเอียด Issue จากนั้นคลิกปุ่ม More > Attach files
+    ![](images/chapter_7/issue_attach_01.png)        
+
+2. คลิกปุ่ม Brows เลือกไฟล์ที่ต้องการแนบ เขียนคอมเม้นท์ จากนั้นคลิกปุ่ม Attach  
+    ![](images/chapter_7/issue_attach_02.png)        
+
 
  
 
