@@ -74,8 +74,8 @@ Sections
                     - เปลี่ยนสถานะ Issue
                     - การแก้ไข Issue
                     - การแนบภาพประกอบ
-                    - การใช้งาน Wiki
                 - เปิดใช้งาน Wiki
+                    - การใช้งาน Wiki                
                 - การเซ็ต SSH เพื่อทำ authentication กับ bitbuckert
                 - ความหมาย fork และ pull request
                 

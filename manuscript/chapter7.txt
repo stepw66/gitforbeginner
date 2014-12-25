@@ -81,13 +81,31 @@
     
 ## เปิดใช้งาน Issue tracking ##
 
-Issue tracking เป็นกระดานสำหรับแจ้ง Issue หรือ บัก ของโค้ดที่เราเขียน เมื่อรันโค้ดเจอบัก ก็มาสร้าง Issue ไว้ assign ให้กับ developer ในทีม ตัว bitbucket เองจะรับหน้าที่ในการส่งอีเมล์เพื่อแจ้งคนในทีมให้ทราบ สะดวกมากมาย
+Issue tracking เป็นกระดานสำหรับแจ้ง Issue หรือ บัก ของโค้ดที่เราเขียน เมื่อรันโค้ดเจอบัก ก็มาสร้าง Issue ไว้ assign ให้กับ developer ในทีม ตัว bitbucket เองจะรับหน้าที่ในการส่งอีเมล์เพื่อแจ้งคนในทีมให้ทราบ สะดวกมากมายและเป็นฟีเจอร์ที่ดีมากๆ
 
-### สร้าง Issue ###
+### เปิดใช้งาน Issue ###
 
+ปกติแล้วฟีเจอร์ Issue tracking จะถูก disable ไว้จำเป็นต้อง enable มันขึ้นมาก่อน ทำดังนี้
 
+1. คลิก Repository ที่ต้องการเปิดการใช้งาน Issue
+    ![](images/chapter_7/issue_enable_01.png)   
 
+2. คลิก Settings 
+    ![](images/chapter_7/issue_enable_02.png)   
 
+3. คลิก Issue traging settings 
+    ![](images/chapter_7/issue_enable_03.png)   
+
+4. ติ๊กเลือก Private issue tracker หาต้องการให้ใช้ได้เฉพาะคนที่ร่วมโปรเจ็ก หรือเลือก Public Issue tracker หากต้องการเปิดเป็นสาธารณะ ใครก็เข้ามาดู Issue ได้จากนั้นคลิกปุ่ม Save เพื่อทำการบันทึก
+    ![](images/chapter_7/issue_enable_04.png)   
+    
+5. สังเกตุที่เพนด้านซ้ายมือจะมีเมนู Issues เพิ่มขึ้นมา
+    ![](images/chapter_7/issue_enable_05.png)   
+    
+    
+    
+    
+    
 
 
 
