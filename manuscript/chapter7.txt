@@ -79,7 +79,7 @@
 8. เป็นอันเสร็จเรียบร้อย ต่อไปเมื่อมีการเปลี่ยน permission ของกลุ่ม ท่านที่อยู่ในกลุ่มก็จะมีสิทธิ์เปลี่ยนไปตามที่กำหนด
     ![](images/chapter_7/create_group_07.png)        
     
-## เปิดใช้งาน Issue tracking ##
+## Issue tracking ##
 
 Issue tracking เป็นกระดานสำหรับแจ้ง Issue หรือ บัก ของโค้ดที่เราเขียน เมื่อรันโค้ดเจอบัก ก็มาสร้าง Issue ไว้ assign ให้กับ developer ในทีม ตัว bitbucket เองจะรับหน้าที่ในการส่งอีเมล์เพื่อแจ้งคนในทีมให้ทราบ สะดวกมากมายและเป็นฟีเจอร์ที่ดีมากๆ
 
@@ -193,7 +193,22 @@ Issue tracking เป็นกระดานสำหรับแจ้ง Issu
 2. มีกล่อง dialog box ขึ้นมาถามความแน่ใจ คลิกปุ่ม Confirm
     ![](images/chapter_7/issue_attach_02.png)        
 
- 
+
+## Wiki ##
+คุณสามารถใช้ Wiki สร้างคู่มือออนไลน์ หรือจะจดบันทึกสำหรับแชร์เพื่อนในทีมก็ได้ ปกติแล้วฟีเจอร์ Wiki จะถูก disable ไว้จำเป็นต้อง enable มันขึ้นมาก่อน ทำดังนี้
+
+
+## เปิดใช้งาน Wiki ##
+
+1. คลิก Settings > Wiki Settings > เลือก Private wiki หรือ public wiki เสร็จแล้วคลิกปุ่ม Save
+    ![](images/chapter_7/wiki_enable_01.png)   
+
+2. หลังจาก refresh หน้าใหม่ครั้งหนึ่ง จะเห็นเมนู Wiki ทางด้านซ้ายมือขึ้นมา 
+    ![](images/chapter_7/issue_enable_02.png)   
+
+สำหรับการสร้างหน้า Wiki ท่านสามารถอ่านเพิ่มเติมได้ที่  https://confluence.atlassian.com/display/BITBUCKET/Use+a+wiki
+
+
 
  
 
