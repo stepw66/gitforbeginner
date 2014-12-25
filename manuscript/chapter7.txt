@@ -185,6 +185,15 @@ Issue tracking เป็นกระดานสำหรับแจ้ง Issu
 2. คลิกปุ่ม Brows เลือกไฟล์ที่ต้องการแนบ เขียนคอมเม้นท์ จากนั้นคลิกปุ่ม Attach  
     ![](images/chapter_7/issue_attach_02.png)        
 
+### การลบ Issue ###
+
+1. คลิกเข้าไปในรายละเอียด Issue จากนั้นคลิกปุ่ม More > Delete
+    ![](images/chapter_7/issue_delete_01.png)        
+
+2. มีกล่อง dialog box ขึ้นมาถามความแน่ใจ คลิกปุ่ม Confirm
+    ![](images/chapter_7/issue_attach_02.png)        
+
+ 
 
  
 
