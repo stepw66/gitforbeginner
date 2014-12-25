@@ -171,6 +171,11 @@ Issue tracking เป็นกระดานสำหรับแจ้ง Issu
 
 ### การแก้ไข Issue ###
 
+1. คลิกเข้าไปในรายละเอียด Issue จากนั้นคลิกปุ่ม Edit
+    ![](images/chapter_7/issue_edit_01.png)        
+
+2. ป้อนรายละเอียดต่างๆ ตามต้องการ จากนั้นคลิกปุ่ม Update issue เพื่อทำการบันทึก
+    ![](images/chapter_7/issue_edit_02.png)        
 
 
  
