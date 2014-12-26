@@ -59,7 +59,7 @@
 
     ![](images/chapter_7/create_group_01.png)
 
-2. คลิก User groups > Add group
+2. คลิก User groups \> Add group
 
     ![](images/chapter_7/create_group_02.png)
 
@@ -200,7 +200,7 @@ Issue tracking เป็นกระดานสำหรับแจ้ง Issu
 
 ### การแนบภาพประกอบ Issue ###
 
-1. คลิกเข้าไปในรายละเอียด Issue จากนั้นคลิกปุ่ม More > Attach files
+1. คลิกเข้าไปในรายละเอียด Issue จากนั้นคลิกปุ่ม More \> Attach files
 
     ![](images/chapter_7/issue_attach_01.png)        
 
@@ -210,7 +210,7 @@ Issue tracking เป็นกระดานสำหรับแจ้ง Issu
 
 ### การลบ Issue ###
 
-1. คลิกเข้าไปในรายละเอียด Issue จากนั้นคลิกปุ่ม More > Delete
+1. คลิกเข้าไปในรายละเอียด Issue จากนั้นคลิกปุ่ม More \> Delete
 
     ![](images/chapter_7/issue_delete_01.png)        
 
@@ -226,7 +226,7 @@ Issue tracking เป็นกระดานสำหรับแจ้ง Issu
 
 ### เปิดใช้งาน Wiki ###
 
-1. คลิก Settings > Wiki Settings > เลือก Private wiki หรือ public wiki เสร็จแล้วคลิกปุ่ม Save
+1. คลิก Settings \> Wiki Settings \> เลือก Private wiki หรือ public wiki เสร็จแล้วคลิกปุ่ม Save
 
     ![](images/chapter_7/wiki_enable_01.png)   
 
