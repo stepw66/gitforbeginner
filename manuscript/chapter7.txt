@@ -198,7 +198,7 @@ Issue tracking เป็นกระดานสำหรับแจ้ง Issu
 คุณสามารถใช้ Wiki สร้างคู่มือออนไลน์ หรือจะจดบันทึกสำหรับแชร์เพื่อนในทีมก็ได้ ปกติแล้วฟีเจอร์ Wiki จะถูก disable ไว้จำเป็นต้อง enable มันขึ้นมาก่อน ทำดังนี้
 
 
-## เปิดใช้งาน Wiki ##
+### เปิดใช้งาน Wiki ###
 
 1. คลิก Settings > Wiki Settings > เลือก Private wiki หรือ public wiki เสร็จแล้วคลิกปุ่ม Save
     ![](images/chapter_7/wiki_enable_01.png)   
