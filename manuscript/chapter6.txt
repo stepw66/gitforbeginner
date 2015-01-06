@@ -25,7 +25,7 @@ Amend Commit เป็นการ Commit ซ้ำเข้าไปใน Comm
     ![](images/chapter_6/amend_commit_05.png)     
   
   
-## คำสั่ง git สำหรับ export ##  
+## export ##  
 
 การจะใช้ command line เพื่อเขียนคำสั่ง export ให้คลิกที่ปุ่ม Teminal หน้าต่าง command ก้จะแสดงขึ้นมาให้เราใช้งาน
 
