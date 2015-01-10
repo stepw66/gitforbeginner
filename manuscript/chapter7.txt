@@ -152,30 +152,27 @@ Issue tracking เป็นกระดานสำหรับแจ้ง Issu
 
 3. หลังทำการ confirm อีเมล์แล้วให้ทำตามเสต็ปข้อที่ 1 อีกครั้ง มันก็จะเข้าหน้าสร้าง Issue ปกติ ให้ป้อนรายละเอียดต่างๆ เสร็จแล้วคลิกปุ่ม Create issue
 
-  	Title : ป้อนหัวข้อ Issue
-	
-  	Description : ป้อนรายละเอียด		
-	
-  	Assignee : กำหนดคนที่จะรับผิดชอบแก้ไข Issue นี้
-	
-  	Kind : ประเภทของ Issue ซึ่งแบ่งออกเป็น 4 ประเภท bug, enhancement, proposal, task
-	
-  	- bug บัก    
-  	- enhancement ปรับปรุงให้โปรแกรมดีขึ้น   
-  	- proposal ข้อเสนอแนะ    
-  	- task สิ่งที่ต้องทำ 
-	
-  	Priority : ระดับความสำคัญ แบ่งออกเป็น 5 ระดับ
-	
-  	- trivial : ไม่รีบค่อยแก้ตอนว่างๆ    
-  	- minor : เล็กน้อย   
-  	- major : ปานกลาง    
-  	- critical : รุนแรง  
-  	- blocker : หายนะ ต้องรีบแก้ด่วนที่สุด   
-	
-  	Attachments : แนบไฟล์ประกอบ
-	
-	![](images/chapter_7/issue_create_03.png)	
+   Title : ป้อนหัวข้อ Issue  
+   Description : ป้อนรายละเอียด  
+   Assignee : กำหนดคนที่จะรับผิดชอบแก้ไข Issue นี้  
+   Kind : ประเภทของ Issue ซึ่งแบ่งออกเป็น 4 ประเภท bug, enhancement, proposal, task  
+
+  - bug บัก  
+  - enhancement ปรับปรุงให้โปรแกรมดีขึ้น  
+  - proposal ข้อเสนอแนะ  
+  - task สิ่งที่ต้องทำ
+
+   Priority : ระดับความสำคัญ แบ่งออกเป็น 5 ระดับ
+
+  - trivial : ไม่รีบค่อยแก้ตอนว่างๆ  
+  - minor : เล็กน้อย  
+  - major : ปานกลาง  
+  - critical : รุนแรง  
+  - blocker : หายนะ ต้องรีบแก้ด่วนที่สุด
+
+   Attachments : แนบไฟล์ประกอบ  
+
+   ![](images/chapter_7/issue_create_03.png)
 
 4. หลังการสร้าง Issue หน้าตาจะออกมาประมาณนี้  เมื่อต้องการจะพูดคุยหรือสื่อสารกันในทีมเกี่ยวกับ Issue นี้ก็คอมเม้นท์คุยกัน ทำให้สามารถกลับมาย้อนดูได้ด้วยว่า ข้อตกลงของทีมเป็นอย่างไร
 
