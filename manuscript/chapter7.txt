@@ -103,9 +103,9 @@
 
     ![](images/chapter_7/create_group_04.png)
 
-ุ6. จะมีหน้าต่างขึ้นมาถามว่า จะให้เพิ่มกลุ่มนี้เข้าไปใน repository ที่มีอยู่ เลยหรือเปล่า คลิกปุ่ม Confirm
+6. จะมีหน้าต่างขึ้นมาถามว่า จะให้เพิ่มกลุ่มนี้เข้าไปใน repository ที่มีอยู่ เลยหรือเปล่า คลิกปุ่ม Confirm
 
-  ![](images/chapter_7/create_group_05.png)    
+  ![](images/chapter_7/create_group_05.png)
 
 7. ป้อนชื่อแอคเค้าของคนที่จะใส่เข้าไปในทีม (เขาจะต้องมีแอคเค้าบน bitbucket) แล้วคลิกปุ่ม Add
 
@@ -156,33 +156,30 @@ Issue tracking เป็นกระดานสำหรับแจ้ง Issu
 3. หลังทำการ confirm อีเมล์แล้วให้ทำตามเสต็ปข้อที่ 1 อีกครั้ง มันก็จะเข้าหน้าสร้าง Issue ปกติ ให้ป้อนรายละเอียดต่างๆ เสร็จแล้วคลิกปุ่ม Create issue
 
 	Title : ป้อนหัวข้อ Issue
-
 	Description : ป้อนรายละเอียด
-
 	Assignee : กำหนดคนที่จะรับผิดชอบแก้ไข Issue นี้
+  Kind : ประเภทของ Issue ซึ่งแบ่งออกเป็น 4 ประเภท bug, enhancement, proposal, task
 
-	Kind : ประเภทของ Issue ซึ่งแบ่งออกเป็น 4 ประเภท bug, enhancement, proposal, task
-
-    * bug บัก
-    * enhancement ปรับปรุงให้โปรแกรมดีขึ้น
-    * proposal ข้อเสนอแนะ
-    * task สิ่งที่ต้องทำ
+  * bug บัก
+  * enhancement ปรับปรุงให้โปรแกรมดีขึ้น
+  * proposal ข้อเสนอแนะ
+  * task สิ่งที่ต้องทำ
 
   Priority : ระดับความสำคัญ แบ่งออกเป็น 5 ระดับ
 
-    * trivial : ไม่รีบค่อยแก้ตอนว่างๆ
-    * minor : เล็กน้อย
-    * major : ปานกลาง
-    * critical : รุนแรง
-    * blocker : หายนะ ต้องรีบแก้ด่วนที่สุด
+  * trivial : ไม่รีบค่อยแก้ตอนว่างๆ
+  * minor : เล็กน้อย
+  * major : ปานกลาง
+  * critical : รุนแรง
+  * blocker : หายนะ ต้องรีบแก้ด่วนที่สุด
 
   Attachments : แนบไฟล์ประกอบ
 
-    ![](images/chapter_7/issue_create_03.png)
+  ![](images/chapter_7/issue_create_03.png)
 
 4. หลังการสร้าง Issue หน้าตาจะออกมาประมาณนี้  เมื่อต้องการจะพูดคุยหรือสื่อสารกันในทีมเกี่ยวกับ Issue นี้ก็คอมเม้นท์คุยกัน ทำให้สามารถกลับมาย้อนดูได้ด้วยว่า ข้อตกลงของทีมเป็นอย่างไร
 
-    ![](images/chapter_7/issue_create_04.png)
+  ![](images/chapter_7/issue_create_04.png)
 
 ทางด้านขวามือจะมีเมนู Workflow ที่ไว้สำหรับจัดการกับ Issue เป็นการเลื่อนสถานะของ Issue นั้นๆว่าตอนนี้อยู่ตรงไหนแล้ว
 
@@ -194,7 +191,7 @@ Issue tracking เป็นกระดานสำหรับแจ้ง Issu
   * wantfix ต้องการการแก้ไขด่วน
   * closed ปิด (อันเนื่องมาจากแก้เสร็จแล้วหรืออย่างอื่นก็แล้วแต่)
 
-![](images/chapter_7/issue_create_04.png)
+![](images/chapter_7/issue_create_05.png)
 
 เมนู More ประกอบไปด้วย 3 เมนูย่อย
 
@@ -202,7 +199,7 @@ Issue tracking เป็นกระดานสำหรับแจ้ง Issu
   * Delete : ลบ Issue ทิ้ง
   * Attach files : แนบไฟล์ประกอบ
 
-![](images/chapter_7/issue_create_05.png)
+![](images/chapter_7/issue_create_06.png)
 
 เมนู Edit ใช้สำหรับแก้ไข Issue
 
@@ -210,29 +207,29 @@ Issue tracking เป็นกระดานสำหรับแจ้ง Issu
 
 1. คลิกเมนู Issues แล้วคลิกเข้าไปดูรายละเอียด Issue
 
-    ![](images/chapter_7/issue_change_status_01.png)
+  ![](images/chapter_7/issue_change_status_01.png)
 
 2. คลิกเมนู Workflow แล้วเลือกสถานะที่ต้องการ
 
-    ![](images/chapter_7/issue_change_status_02.png)
+  ![](images/chapter_7/issue_change_status_02.png)
 
 3. พิมพ์คอมเม้นท์เสร็จแล้วคลิกปุ่ม Change
 
-    ![](images/chapter_7/issue_change_status_03.png)
+  ![](images/chapter_7/issue_change_status_03.png)
 
 4. สถานะของ Issue จะเปลี่ยนไปตามที่เรากำหนด
 
-    ![](images/chapter_7/issue_change_status_03.png)
+  ![](images/chapter_7/issue_change_status_03.png)
 
 ### การแก้ไข Issue ###
 
 1. คลิกเข้าไปในรายละเอียด Issue จากนั้นคลิกปุ่ม Edit
 
-    ![](images/chapter_7/issue_edit_01.png)
+  ![](images/chapter_7/issue_edit_01.png)
 
 2. ป้อนรายละเอียดต่างๆ ตามต้องการ จากนั้นคลิกปุ่ม Update issue เพื่อทำการบันทึก
 
-    ![](images/chapter_7/issue_edit_02.png)
+  ![](images/chapter_7/issue_edit_02.png)
 
 ### การแนบภาพประกอบ Issue ###
 
@@ -252,7 +249,7 @@ Issue tracking เป็นกระดานสำหรับแจ้ง Issu
 
 2. มีกล่อง dialog box ขึ้นมาถามความแน่ใจ คลิกปุ่ม Confirm
 
-    ![](images/chapter_7/issue_attach_02.png)
+    ![](images/chapter_7/issue_delete_02.png)
 
 
 ## Wiki ##
@@ -268,6 +265,6 @@ Issue tracking เป็นกระดานสำหรับแจ้ง Issu
 
 2. หลังจาก refresh หน้าใหม่ครั้งหนึ่ง จะเห็นเมนู Wiki ทางด้านซ้ายมือขึ้นมา
 
-    ![](images/chapter_7/issue_enable_02.png)
+    ![](images/chapter_7/wiki_enable_02.png)
 
 สำหรับการสร้างหน้า Wiki ท่านสามารถอ่านเพิ่มเติมได้ที่  https://confluence.atlassian.com/display/BITBUCKET/Use+a+wiki
