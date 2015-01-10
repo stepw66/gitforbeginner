@@ -1,6 +1,6 @@
 # บทที่ 7 bitbucket #
 
-เราใช้ bitbucket กันมาตั้งแต่บทที่ 4 แต่ผมยังไม่เคยพาท่านๆไปสำรวจมันเลยว่ามันมีอะไรบ้าง คุณสมบัติเจ๋งๆหลายอย่างมีให้เราใช้ครับ ทั้งที่มันฟรี ลองล้อกอินเข้าไปดู 
+เราใช้ bitbucket กันมาตั้งแต่บทที่ 4 แต่ผมยังไม่เคยพาท่านๆไปสำรวจมันเลยว่ามันมีอะไรบ้าง คุณสมบัติเจ๋งๆหลายอย่างมีให้เราใช้ครับ ทั้งที่มันฟรี ลองล้อกอินเข้าไปดู
 
 ## สำรวจ bitbucket ว่ามีอะไรบ้าง ##
 
@@ -51,10 +51,10 @@
 - Sessions : แสดงประวัติการล้อกอินเข้าสู่ระบบ
 
 - Audit log : แสดงประวัติการ สร้าง, ลบ repository และ SSH key
-    
+
 เมื่อคลิกเข้าไปดูรายละเอียดแต่ละ Repository ก็จะเจอกับเมนูต่างๆ
 
-![](images/chapter_7/bitbucket_project_detail.png)    
+![](images/chapter_7/bitbucket_project_detail.png)
 
 - Clone : แสดงลิ้งก์สำหรับ clone Repository ลงมายังเครื่องพัฒนา
 
@@ -80,7 +80,7 @@
 
 - Settings : หน้ากำหนดค่าต่างๆ
 
-    
+
 ## สร้างทีมสำหรับ dev ##
 
 1. คลิกเมนู Manage account
@@ -94,27 +94,27 @@
 3. ป้อนชื่อทีมเข้าไปในช่อง Name เสร็จแล้วคลิกปุ่ม Submit
 
     ![](images/chapter_7/create_group_03.png)
-    
+
 4. ป้อนชื่อทีมเข้าไปในช่อง Name เสร็จแล้วคลิกปุ่ม Submit
 
-    ![](images/chapter_7/create_group_03.png)  
-    
+    ![](images/chapter_7/create_group_03.png)
+
 5. กำหนด pemission ให้กับกลุ่ม
 
     ![](images/chapter_7/create_group_04.png)
-    
+
 ุ6. จะมีหน้าต่างขึ้นมาถามว่า จะให้เพิ่มกลุ่มนี้เข้าไปใน repository ที่มีอยู่ เลยหรือเปล่า คลิกปุ่ม Confirm
 
-    ![](images/chapter_7/create_group_05.png)    
-    
+  ![](images/chapter_7/create_group_05.png)    
+
 7. ป้อนชื่อแอคเค้าของคนที่จะใส่เข้าไปในทีม (เขาจะต้องมีแอคเค้าบน bitbucket) แล้วคลิกปุ่ม Add
 
-    ![](images/chapter_7/create_group_06.png)        
-    
+    ![](images/chapter_7/create_group_06.png)
+
 8. เป็นอันเสร็จเรียบร้อย ต่อไปเมื่อมีการเปลี่ยน permission ของกลุ่ม ท่านที่อยู่ในกลุ่มก็จะมีสิทธิ์เปลี่ยนไปตามที่กำหนด
 
-    ![](images/chapter_7/create_group_07.png)        
-    
+    ![](images/chapter_7/create_group_07.png)
+
 ## Issue tracking ##
 
 Issue tracking เป็นกระดานสำหรับแจ้ง Issue หรือ บัก ของโค้ดที่เราเขียน เมื่อรันโค้ดเจอบัก ก็มาสร้าง Issue ไว้ assign ให้กับ developer ในทีม ตัว bitbucket เองจะรับหน้าที่ในการส่งอีเมล์เพื่อแจ้งคนในทีมให้ทราบ สะดวกมากมายและเป็นฟีเจอร์ที่ดีมากๆ
@@ -125,151 +125,134 @@ Issue tracking เป็นกระดานสำหรับแจ้ง Issu
 
 1. คลิก Repository ที่ต้องการเปิดการใช้งาน Issue
 
-    ![](images/chapter_7/issue_enable_01.png)   
+    ![](images/chapter_7/issue_enable_01.png)
 
-2. คลิก Settings 
+2. คลิก Settings
 
-    ![](images/chapter_7/issue_enable_02.png)   
+    ![](images/chapter_7/issue_enable_02.png)
 
-3. คลิก Issue traging settings 
+3. คลิก Issue traging settings
 
-    ![](images/chapter_7/issue_enable_03.png)   
+    ![](images/chapter_7/issue_enable_03.png)
 
 4. ติ๊กเลือก Private issue tracker หาต้องการให้ใช้ได้เฉพาะคนที่ร่วมโปรเจ็ก หรือเลือก Public Issue tracker หากต้องการเปิดเป็นสาธารณะ ใครก็เข้ามาดู Issue ได้จากนั้นคลิกปุ่ม Save เพื่อทำการบันทึก
 
-    ![](images/chapter_7/issue_enable_04.png)   
-    
+    ![](images/chapter_7/issue_enable_04.png)
+
 5. สังเกตุที่เพนด้านซ้ายมือจะมีเมนู Issues เพิ่มขึ้นมา
 
-    ![](images/chapter_7/issue_enable_05.png)   
-    
+    ![](images/chapter_7/issue_enable_05.png)
+
 ### สร้าง Issue ###
 
 1. คลิกเมนู Issues ทางด้านซ้ายมือ จากนั้นคลิกปุ่ม Create your first issue
 
-    ![](images/chapter_7/issue_create_01.png)   
-    
+    ![](images/chapter_7/issue_create_01.png)
+
 2. ในกรณียังไม่ได้ทำการ confirm อีเมล์ ทาง bitbucket จะขึ้นมาเตือนให้ confirm อีเมล์ก่อน ให้เราเข้าไปในอีเมล์หาอีเมล์จากทาง bitbucket เปิดเข้าไปในนั้นจะมีลิ้งก์สำหรับ confirm อีเมล์
 
-    ![](images/chapter_7/issue_create_02.png)    
-    
+    ![](images/chapter_7/issue_create_02.png)
+
 3. หลังทำการ confirm อีเมล์แล้วให้ทำตามเสต็ปข้อที่ 1 อีกครั้ง มันก็จะเข้าหน้าสร้าง Issue ปกติ ให้ป้อนรายละเอียดต่างๆ เสร็จแล้วคลิกปุ่ม Create issue
 
 	Title : ป้อนหัวข้อ Issue
-    
-	Description : ป้อนรายละเอียด
-    
-	Assignee : กำหนดคนที่จะรับผิดชอบแก้ไข Issue นี้
-    
-	Kind : ประเภทของ Issue ซึ่งแบ่งออกเป็น 4 ประเภท bug, enhancement, proposal, task
-    
-		bug บัก
-        
-		enhancement ปรับปรุงให้โปรแกรมดีขึ้น
-        
-		proposal ข้อเสนอแนะ
-        
-		task สิ่งที่ต้องทำ
-        
-	Priority : ระดับความสำคัญ แบ่งออกเป็น 5 ระดับ
-    
-		trivial : ไม่รีบค่อยแก้ตอนว่างๆ
-        
-		minor : เล็กน้อย
-        
-		major : ปานกลาง
-        
-		critical : รุนแรง
-        
-		blocker : หายนะ ต้องรีบแก้ด่วนที่สุด
-        
-	Attachments : แนบไฟล์ประกอบ
 
-    ![](images/chapter_7/issue_create_03.png)        
+	Description : ป้อนรายละเอียด
+
+	Assignee : กำหนดคนที่จะรับผิดชอบแก้ไข Issue นี้
+
+	Kind : ประเภทของ Issue ซึ่งแบ่งออกเป็น 4 ประเภท bug, enhancement, proposal, task
+
+    * bug บัก
+    * enhancement ปรับปรุงให้โปรแกรมดีขึ้น
+    * proposal ข้อเสนอแนะ
+    * task สิ่งที่ต้องทำ
+
+  Priority : ระดับความสำคัญ แบ่งออกเป็น 5 ระดับ
+
+    * trivial : ไม่รีบค่อยแก้ตอนว่างๆ
+    * minor : เล็กน้อย
+    * major : ปานกลาง
+    * critical : รุนแรง
+    * blocker : หายนะ ต้องรีบแก้ด่วนที่สุด
+
+  Attachments : แนบไฟล์ประกอบ
+
+    ![](images/chapter_7/issue_create_03.png)
 
 4. หลังการสร้าง Issue หน้าตาจะออกมาประมาณนี้  เมื่อต้องการจะพูดคุยหรือสื่อสารกันในทีมเกี่ยวกับ Issue นี้ก็คอมเม้นท์คุยกัน ทำให้สามารถกลับมาย้อนดูได้ด้วยว่า ข้อตกลงของทีมเป็นอย่างไร
 
-    ![](images/chapter_7/issue_create_04.png)        
+    ![](images/chapter_7/issue_create_04.png)
 
-ทางด้านขวามือจะมีเมนู Workflow ที่ไว้สำหรับจัดการกับ Issue เป็นการเลื่อนสถานะของ Issue นั้นๆว่าตอนนี้อยู่ตรงไหนแล้ว 
+ทางด้านขวามือจะมีเมนู Workflow ที่ไว้สำหรับจัดการกับ Issue เป็นการเลื่อนสถานะของ Issue นั้นๆว่าตอนนี้อยู่ตรงไหนแล้ว
 
-	open เปิดไว้รอการแก้ไข
-    
-	on hold รอไว้ก่อนยังไม่ต้องแก้ไข
-    
-	resolved ได้รับการแก้ไขแล้ว
-    
-	duplicate ซ้ำกันกับ Issue อื่นที่สร้างไว้แล้ว
-    
-	invalid ไม่ถูกต้อง
-    
-	wantfix ต้องการการแก้ไขด่วน
-    
-	closed ปิด (อันเนื่องมาจากแก้เสร็จแล้วหรืออย่างอื่นก็แล้วแต่)
-	
-![](images/chapter_7/issue_create_04.png)  
+  * open เปิดไว้รอการแก้ไข
+  * on hold รอไว้ก่อนยังไม่ต้องแก้ไข
+  * resolved ได้รับการแก้ไขแล้ว
+  * duplicate ซ้ำกันกับ Issue อื่นที่สร้างไว้แล้ว
+  * invalid ไม่ถูกต้อง
+  * wantfix ต้องการการแก้ไขด่วน
+  * closed ปิด (อันเนื่องมาจากแก้เสร็จแล้วหรืออย่างอื่นก็แล้วแต่)
 
+![](images/chapter_7/issue_create_04.png)
 
 เมนู More ประกอบไปด้วย 3 เมนูย่อย
 
-	Mark as spam : mark ว่า Issue นี้เป็นแสปม
-    
-	Delete : ลบ Issue ทิ้ง
-    
-	Attach files : แนบไฟล์ประกอบ
+  * Mark as spam : mark ว่า Issue นี้เป็นแสปม
+  * Delete : ลบ Issue ทิ้ง
+  * Attach files : แนบไฟล์ประกอบ
 
-![](images/chapter_7/issue_create_05.png) 
+![](images/chapter_7/issue_create_05.png)
 
 เมนู Edit ใช้สำหรับแก้ไข Issue
 
-
-### เปลี่ยนสถานะ Issue ### 
+### เปลี่ยนสถานะ Issue ###
 
 1. คลิกเมนู Issues แล้วคลิกเข้าไปดูรายละเอียด Issue
 
-    ![](images/chapter_7/issue_change_status_01.png)        
+    ![](images/chapter_7/issue_change_status_01.png)
 
 2. คลิกเมนู Workflow แล้วเลือกสถานะที่ต้องการ
 
-    ![](images/chapter_7/issue_change_status_02.png)        
+    ![](images/chapter_7/issue_change_status_02.png)
 
 3. พิมพ์คอมเม้นท์เสร็จแล้วคลิกปุ่ม Change
 
-    ![](images/chapter_7/issue_change_status_03.png)        
+    ![](images/chapter_7/issue_change_status_03.png)
 
 4. สถานะของ Issue จะเปลี่ยนไปตามที่เรากำหนด
 
-    ![](images/chapter_7/issue_change_status_03.png)        
+    ![](images/chapter_7/issue_change_status_03.png)
 
 ### การแก้ไข Issue ###
 
 1. คลิกเข้าไปในรายละเอียด Issue จากนั้นคลิกปุ่ม Edit
 
-    ![](images/chapter_7/issue_edit_01.png)        
+    ![](images/chapter_7/issue_edit_01.png)
 
 2. ป้อนรายละเอียดต่างๆ ตามต้องการ จากนั้นคลิกปุ่ม Update issue เพื่อทำการบันทึก
 
-    ![](images/chapter_7/issue_edit_02.png)        
+    ![](images/chapter_7/issue_edit_02.png)
 
 ### การแนบภาพประกอบ Issue ###
 
 1. คลิกเข้าไปในรายละเอียด Issue จากนั้นคลิกปุ่ม More \> Attach files
 
-    ![](images/chapter_7/issue_attach_01.png)        
+    ![](images/chapter_7/issue_attach_01.png)
 
-2. คลิกปุ่ม Brows เลือกไฟล์ที่ต้องการแนบ เขียนคอมเม้นท์ จากนั้นคลิกปุ่ม Attach  
+2. คลิกปุ่ม Brows เลือกไฟล์ที่ต้องการแนบ เขียนคอมเม้นท์ จากนั้นคลิกปุ่ม Attach
 
-    ![](images/chapter_7/issue_attach_02.png)        
+    ![](images/chapter_7/issue_attach_02.png)
 
 ### การลบ Issue ###
 
 1. คลิกเข้าไปในรายละเอียด Issue จากนั้นคลิกปุ่ม More \> Delete
 
-    ![](images/chapter_7/issue_delete_01.png)        
+    ![](images/chapter_7/issue_delete_01.png)
 
 2. มีกล่อง dialog box ขึ้นมาถามความแน่ใจ คลิกปุ่ม Confirm
 
-    ![](images/chapter_7/issue_attach_02.png)        
+    ![](images/chapter_7/issue_attach_02.png)
 
 
 ## Wiki ##
@@ -281,18 +264,10 @@ Issue tracking เป็นกระดานสำหรับแจ้ง Issu
 
 1. คลิก Settings \> Wiki Settings \> เลือก Private wiki หรือ public wiki เสร็จแล้วคลิกปุ่ม Save
 
-    ![](images/chapter_7/wiki_enable_01.png)   
+    ![](images/chapter_7/wiki_enable_01.png)
 
-2. หลังจาก refresh หน้าใหม่ครั้งหนึ่ง จะเห็นเมนู Wiki ทางด้านซ้ายมือขึ้นมา 
+2. หลังจาก refresh หน้าใหม่ครั้งหนึ่ง จะเห็นเมนู Wiki ทางด้านซ้ายมือขึ้นมา
 
-    ![](images/chapter_7/issue_enable_02.png)   
+    ![](images/chapter_7/issue_enable_02.png)
 
 สำหรับการสร้างหน้า Wiki ท่านสามารถอ่านเพิ่มเติมได้ที่  https://confluence.atlassian.com/display/BITBUCKET/Use+a+wiki
-
-
-
- 
-
-
-
-
