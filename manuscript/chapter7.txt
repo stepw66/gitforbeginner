@@ -14,11 +14,9 @@
 
 3. Account Settings เมนูสำหรับปรับแต่งข้อมูลส่วนตัว
 
-
 เมื่อคลิกเข้าไปในหน้า Account Settings ก็จะเจอกับเมนูต่างๆ
 
 ![](images/chapter_7/bitbucket_account_settings.png)
-
 
 - Account settings : ตั้งค่าข้อมูลส่วนตัว เช่น ชื่อ, นามสกุล, ภาพประจำตัว เป็นต้น
 
@@ -79,7 +77,6 @@
 - Downloads : ดาวน์โหลดโค้ดเป็น zip ไฟล์
 
 - Settings : หน้ากำหนดค่าต่างๆ
-
 
 ## สร้างทีมสำหรับ dev ##
 
@@ -198,9 +195,9 @@ Issue tracking เป็นกระดานสำหรับแจ้ง Issu
 
 เมนู More ประกอบไปด้วย 3 เมนูย่อย
 
-  * Mark as spam : mark ว่า Issue นี้เป็นแสปม
-  * Delete : ลบ Issue ทิ้ง
-  * Attach files : แนบไฟล์ประกอบ
+- Mark as spam : mark ว่า Issue นี้เป็นแสปม
+- Delete : ลบ Issue ทิ้ง
+- Attach files : แนบไฟล์ประกอบ
 
 ![](images/chapter_7/issue_create_06.png)
 
@@ -254,11 +251,9 @@ Issue tracking เป็นกระดานสำหรับแจ้ง Issu
 
     ![](images/chapter_7/issue_delete_02.png)
 
-
 ## Wiki ##
 
 คุณสามารถใช้ Wiki สร้างคู่มือออนไลน์ หรือจะจดบันทึกสำหรับแชร์เพื่อนในทีมก็ได้ ปกติแล้วฟีเจอร์ Wiki จะถูก disable ไว้จำเป็นต้อง enable มันขึ้นมาก่อน ทำดังนี้
-
 
 ### เปิดใช้งาน Wiki ###
 
