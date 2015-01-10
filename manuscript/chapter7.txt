@@ -19,21 +19,37 @@
 
 ![](images/chapter_7/bitbucket_account_settings.png)
 
+
 - Account settings : ตั้งค่าข้อมูลส่วนตัว เช่น ชื่อ, นามสกุล, ภาพประจำตัว เป็นต้น
+
 - Email addresses : สำหรับจัดการกับชื่ออีเมล์ของตัวเอง มันจะมีประโยชน์ตอน notifications
+
 - Notifications : ตั้งค่าการแจ้งเตือน
+
 - Custom domain : เปลี่ยน url จาก bitbucket.org เป็นชื่อโดเมนของเรา (ต้องมีความรู้เรื่อง CNAME)
+
 - Change username : เปลี่ยน Username สำหรับล้อกอินเข้าสู่ระบบ
+
 - Delete account : ลบแอคเค้าทิ้ง (จะไม่สามารถเข้าใช้งาน bitbucket.org ได้อีก)
+
 - Plan details : แสดงเพ็กเกจบริการที่ใช้อยู่ในปัจจุบัน
+
 - Billing details : แสดงรายการบัตรเครดิต
+
 - User groups : สำหรับสร้างทีมพัฒนา
+
 - OAuth : แสดงโปรแกรมที่อนุญาติให้เข้าใช้ Repository
+
 - HipChat integration : เชื่อมต่อเข้ากับระบบ HipChat บริการแชทแบบกลุ่ม
+
 - Change password : เปลี่ยนรหัสผ่าน
+
 - SSH keys : จัดการ public key ของ SSH
+
 - Connected accounts : แสดง account ที่ใช้สำหรับล้อกอินเข้าสู่ระบบ (third party)
+
 - Sessions : แสดงประวัติการล้อกอินเข้าสู่ระบบ
+
 - Audit log : แสดงประวัติการ สร้าง, ลบ repository และ SSH key
     
 เมื่อคลิกเข้าไปดูรายละเอียดแต่ละ Repository ก็จะเจอกับเมนูต่างๆ
@@ -41,17 +57,29 @@
 ![](images/chapter_7/bitbucket_project_detail.png)    
 
 - Clone : แสดงลิ้งก์สำหรับ clone Repository ลงมายังเครื่องพัฒนา
+
 - Create branch : แตก branch ใหม่
+
 - Create pull request : อ่านรายละเอียดเพิ่มเติมที่ https://www.atlassian.com/git/tutorials/making-a-pull-request
+
 - Compare : เปรียบเทียบความต่างของ branch
+
 - Fork : ขอ Clone repository โดยไม่ขอเกี่ยวข้องกับ Repository เดิม
+
 - Overviews : แสดงภาพรามของ Repository
+
 - Source : ดูโค้ด
+
 - Commits : ดู commit ต่างๆ
+
 - Branches : ดู branch ต่างๆ
+
 - Pull requests : อ่านรายละเอียดเพิ่มเติมที่ https://www.atlassian.com/git/tutorials/making-a-pull-request
+
 - Downloads : ดาวน์โหลดโค้ดเป็น zip ไฟล์
+
 - Settings : หน้ากำหนดค่าต่างๆ
+
     
 ## สร้างทีมสำหรับ dev ##
 
@@ -126,20 +154,35 @@ Issue tracking เป็นกระดานสำหรับแจ้ง Issu
     ![](images/chapter_7/issue_create_02.png)    
     
 3. หลังทำการ confirm อีเมล์แล้วให้ทำตามเสต็ปข้อที่ 1 อีกครั้ง มันก็จะเข้าหน้าสร้าง Issue ปกติ ให้ป้อนรายละเอียดต่างๆ เสร็จแล้วคลิกปุ่ม Create issue
+
 	Title : ป้อนหัวข้อ Issue
+    
 	Description : ป้อนรายละเอียด
+    
 	Assignee : กำหนดคนที่จะรับผิดชอบแก้ไข Issue นี้
+    
 	Kind : ประเภทของ Issue ซึ่งแบ่งออกเป็น 4 ประเภท bug, enhancement, proposal, task
+    
 		bug บัก
+        
 		enhancement ปรับปรุงให้โปรแกรมดีขึ้น
+        
 		proposal ข้อเสนอแนะ
+        
 		task สิ่งที่ต้องทำ
+        
 	Priority : ระดับความสำคัญ แบ่งออกเป็น 5 ระดับ
+    
 		trivial : ไม่รีบค่อยแก้ตอนว่างๆ
+        
 		minor : เล็กน้อย
+        
 		major : ปานกลาง
+        
 		critical : รุนแรง
+        
 		blocker : หายนะ ต้องรีบแก้ด่วนที่สุด
+        
 	Attachments : แนบไฟล์ประกอบ
 
     ![](images/chapter_7/issue_create_03.png)        
@@ -149,20 +192,30 @@ Issue tracking เป็นกระดานสำหรับแจ้ง Issu
     ![](images/chapter_7/issue_create_04.png)        
 
 ทางด้านขวามือจะมีเมนู Workflow ที่ไว้สำหรับจัดการกับ Issue เป็นการเลื่อนสถานะของ Issue นั้นๆว่าตอนนี้อยู่ตรงไหนแล้ว 
+
 	open เปิดไว้รอการแก้ไข
+    
 	on hold รอไว้ก่อนยังไม่ต้องแก้ไข
+    
 	resolved ได้รับการแก้ไขแล้ว
+    
 	duplicate ซ้ำกันกับ Issue อื่นที่สร้างไว้แล้ว
+    
 	invalid ไม่ถูกต้อง
+    
 	wantfix ต้องการการแก้ไขด่วน
+    
 	closed ปิด (อันเนื่องมาจากแก้เสร็จแล้วหรืออย่างอื่นก็แล้วแต่)
 	
 ![](images/chapter_7/issue_create_04.png)  
 
 
 เมนู More ประกอบไปด้วย 3 เมนูย่อย
+
 	Mark as spam : mark ว่า Issue นี้เป็นแสปม
+    
 	Delete : ลบ Issue ทิ้ง
+    
 	Attach files : แนบไฟล์ประกอบ
 
 ![](images/chapter_7/issue_create_05.png) 
