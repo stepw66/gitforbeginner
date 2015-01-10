@@ -82,35 +82,35 @@
 
 1. คลิกเมนู Manage account
 
-    ![](images/chapter_7/create_group_01.png)
+   ![](images/chapter_7/create_group_01.png)
 
 2. คลิก User groups \> Add group
 
-    ![](images/chapter_7/create_group_02.png)
+   ![](images/chapter_7/create_group_02.png)
 
 3. ป้อนชื่อทีมเข้าไปในช่อง Name เสร็จแล้วคลิกปุ่ม Submit
 
-    ![](images/chapter_7/create_group_03.png)
+   ![](images/chapter_7/create_group_03.png)
 
 4. ป้อนชื่อทีมเข้าไปในช่อง Name เสร็จแล้วคลิกปุ่ม Submit
 
-    ![](images/chapter_7/create_group_03.png)
+   ![](images/chapter_7/create_group_03.png)
 
 5. กำหนด pemission ให้กับกลุ่ม
 
-    ![](images/chapter_7/create_group_04.png)
+   ![](images/chapter_7/create_group_04.png)
 
 6. จะมีหน้าต่างขึ้นมาถามว่า จะให้เพิ่มกลุ่มนี้เข้าไปใน repository ที่มีอยู่ เลยหรือเปล่า คลิกปุ่ม Confirm
 
-    ![](images/chapter_7/create_group_05.png)
+   ![](images/chapter_7/create_group_05.png)
 
 7. ป้อนชื่อแอคเค้าของคนที่จะใส่เข้าไปในทีม (เขาจะต้องมีแอคเค้าบน bitbucket) แล้วคลิกปุ่ม Add
 
-    ![](images/chapter_7/create_group_06.png)
+   ![](images/chapter_7/create_group_06.png)
 
 8. เป็นอันเสร็จเรียบร้อย ต่อไปเมื่อมีการเปลี่ยน permission ของกลุ่ม ท่านที่อยู่ในกลุ่มก็จะมีสิทธิ์เปลี่ยนไปตามที่กำหนด
 
-    ![](images/chapter_7/create_group_07.png)
+   ![](images/chapter_7/create_group_07.png)
 
 ## Issue tracking ##
 
@@ -172,11 +172,11 @@ Issue tracking เป็นกระดานสำหรับแจ้ง Issu
 
    Attachments : แนบไฟล์ประกอบ
 
-   ![](images/chapter_7/issue_create_03.png) 
+   ![](images/chapter_7/issue_create_03.png)
 
-4. หลังการสร้าง Issue หน้าตาจะออกมาประมาณนี้  เมื่อต้องการจะพูดคุยหรือสื่อสารกันในทีมเกี่ยวกับ Issue นี้ก็คอมเม้นท์คุยกัน ทำให้สามารถกลับมาย้อนดูได้ด้วยว่า ข้อตกลงของทีมเป็นอย่างไร
+หลังการสร้าง Issue หน้าตาจะออกมาประมาณนี้  เมื่อต้องการจะพูดคุยหรือสื่อสารกันในทีมเกี่ยวกับ Issue นี้ก็คอมเม้นท์คุยกัน ทำให้สามารถกลับมาย้อนดูได้ด้วยว่า ข้อตกลงของทีมเป็นอย่างไร
 
-    ![](images/chapter_7/issue_create_04.png)
+![](images/chapter_7/issue_create_04.png)
 
 ทางด้านขวามือจะมีเมนู Workflow ที่ไว้สำหรับจัดการกับ Issue เป็นการเลื่อนสถานะของ Issue นั้นๆว่าตอนนี้อยู่ตรงไหนแล้ว
 
