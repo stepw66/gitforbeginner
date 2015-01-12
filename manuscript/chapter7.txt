@@ -248,6 +248,39 @@ Issue tracking เป็นกระดานสำหรับแจ้ง Issu
 
    ![](images/chapter_7/issue_delete_02.png)
 
+
+## Hook ##
+
+Hook คือ trigger ที่เราจะให้เกิดขึ้นหาก repository มีการเปลี่ยนแปลง ซึ่งอาจจะเกิดจากการสร้าง branch 
+ใหม่ หรือการ push โค้ดเข้า repository ก็ได้  ถ้าใครยังไม่เข้าใจอีก ขออธิบายเพิ่มเติมว่า เหมือนกับที่เราเขียนจาวาสคริปต์น่ะครับว่า 
+เมื่อมีการกดปุ่มนี้ๆ จะให้มันทำงานอะไร (เราต้องเขียนโค้ดกำหนดการทำงานเอง)  
+เหมือนกัน  เมื่อมีการ push โค้ดเข้ามา เราอยากให้มันทำอะไรโดยอัตโนมัติ ซึ่งสิ่งที่มันจะทำได้ ถูกเขียนกำหนดไว้เรียบร้อยแล้ว 
+
+Hook ที่มีให้ใช้งานใน bitbucket มีเยอะซึ่งท่านสามารถศึกษาเพิ่มเติมได้จากเว็บไซต์  [https://confluence.atlassian.com/display/BITBUCKET/Manage+Bitbucket+hooks](https://confluence.atlassian.com/display/BITBUCKET/Manage+Bitbucket+hooks "Hooks")
+
+### ให้ส่งอีเมล์อัตโนมัติเมื่อมีใคร push code เข้า repository ###
+
+1. คลิกเข้าไปยัง repository ที่ต้องการกำหนด hook
+
+2. คลิก Settings (1) \> Hooks (2)
+
+   ![](images/chapter_7/hook_email_01.png)
+
+3. คลิก Select a hook (1) เลื่อนหา Email (2) คลิกเลือก จากนั้นคลิกปุ่ม Add hook (3)
+
+   ![](images/chapter_7/hook_email_02.png)
+
+4. Dialog box แสดงขึ้นมาให้ป้อนอีเมล์ ป้อนมันเข้าไป จากนั้นคลิกปุ่ม Save
+
+   ![](images/chapter_7/hook_email_03.png)
+
+ต่อจากนี้ไปเมื่อมีคน push code เข้า repository จะมีอีเมล์ส่งหาเราอัตโนมัติเสมอ ทีนี้ลองคลิกดูใน dropdownlist 
+ใหม่อีกทีนะครับ จะเห็นว่ามี hook ไว้บริการเพียบ มีแม้กระทั่งให้ส่ง twitter หาใครก็ได้หากมีคน push code เข้า repository
+ท่านสามารถอ่านรายละเอียดและวิธีใช้งานของ hook แต่ละตัวได้ที่ [https://confluence.atlassian.com/display/BITBUCKET/Manage+Bitbucket+hooks](https://confluence.atlassian.com/display/BITBUCKET/Manage+Bitbucket+hooks "Hooks")
+
+![](images/chapter_7/hook_email_04.png)
+
+
 ## Wiki ##
 
 คุณสามารถใช้ Wiki สร้างคู่มือออนไลน์ หรือจะจดบันทึกสำหรับแชร์เพื่อนในทีมก็ได้ ปกติแล้วฟีเจอร์ Wiki จะถูก disable ไว้จำเป็นต้อง enable มันขึ้นมาก่อน ทำดังนี้
