@@ -1,0 +1,52 @@
+บทที่ 1 Overview
+บทที่ 2 ติดตั้ง Git
+	ติดตั้ง Git SCM
+	ติดตั้ง Source Tree
+	เปิดใช้งาน source tree ครั้งแรก
+	Configuration
+บทที่ 3 Working with Git Locally 
+	สร้าง repository
+	ทดลองเล่น Git ครั้งแรก
+	Commit
+	Undo
+	Undo All
+	Show history
+	Ignore some file
+บทที่ 4 Going remote
+	สมัคร bitbucket.org
+	สร้าง Repository บน bitbucket.org
+	Clonning ดึงโปรเจ็กมาลงเครื่องพัฒนา 
+	Pushing เอาไฟล์ขึ้นไปเก็บที่ bitbucket
+	Pull ดึงไฟล์จาก bitbucket
+บทที่ 5 Branch
+	การแตก branch
+	การสลับ branch
+	การลบ branch
+	การลบ branch วิธีที่ 2
+	การ merge branch
+	tag ความหมายและการใช้งาน 
+	Stash วิธีการพักโค้ด
+	Apply โค้ดจาก Stash
+	การ Checkout โค้ด
+บทที่ 6 คำสั่งอรรถประโยชน์
+	Amend Commit
+	export  
+	export แบบ เจาะจง commit 
+	คำสั่ง 
+	คำอธิบาย  
+	export แบบช่วงจาก commit นี้ไปถึง commit นี้  
+บทที่ 7 bitbucket  
+	สำรวจ bitbucket ว่ามีอะไรบ้าง  
+	สร้างทีมสำหรับ dev  
+	Issue tracking 
+	เปิดใช้งาน Issue 
+	สร้าง Issue  
+	เปลี่ยนสถานะ Issue 
+	การแก้ไข Issue  
+	การแนบภาพประกอบ Issue 
+	การลบ Issue  
+	Hook  
+	ให้ส่งอีเมล์อัตโนมัติเมื่อมีใคร push code เข้า repository  
+	ให้ส่ง twitter อัตโนมัติเมื่อมีใคร push code เข้า repository  
+	Wiki  
+	เปิดใช้งาน Wiki 
